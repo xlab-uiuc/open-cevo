@@ -1,4 +1,4 @@
-# Artifacts for Software Configuration Evolution in Cloud Systems
+# Artifacts for Configuration Evolution of Cloud Systems
 
 This repository includes the artifacts of the evolutionary study of software configuration design and implementation in cloud systems.
 
