@@ -12,7 +12,7 @@ We use four sources of data to help us understand and category each commit:
 
 Analyzing Code diff is the most effective and accurate way to categorize the commit. The key principle for **code diff** analysis is to understand **how each commit changes the configuration in different categories** described in Table II. Apart form code diff, **commit message** and **issue description** (also developers' discussion, as supplementary information) can help us **validate** and **reason about** our result as they are written in natrual language. 
 
-Here we walk through examples to show the process that we study and categorize commits.
+Here we walk through examples to show the process that we study and categorize commits. Please refer to Fig.1 and Table II in the paper.
 
 ## Interface (Section IV)
 
