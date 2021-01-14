@@ -1,1 +1,0 @@
-https://github.com/apache/hadoop/commits/trunk?after=2b4febcf576e2da29ab86e2920302b82b47e435d+34&branch=trunk

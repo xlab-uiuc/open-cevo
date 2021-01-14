@@ -1,1 +1,0 @@
-https://github.com/apache/cassandra/commits/trunk?after=401e933b7395892bf0356f88308f64b94be84601+34&branch=trunk
