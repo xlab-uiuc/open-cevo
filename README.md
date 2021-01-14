@@ -126,7 +126,7 @@ ___________________touchedMessage_____________________
 Null
 ~~~
 
-We provide a [demo](xxx) (The above case is in that demo) for all HDFS commit examples in [commit_study.md (tutorial)](xxx), they are HDFS-13607, HDFS-12291, HDFS-12412, HDFS-11998, HDFS-12716, HDFS-11576 and HDFS-12603. Run `commit_selection.py` in `/code/hdfs_demo_examples` to see `commit_selected.txt` and the structured info for each commit.
+We provide a [demo](https://github.com/xlab-uiuc/open-cevo/tree/main/code/hdfs_demo_examples) (The above case is in that demo) for all HDFS commit examples in [commit_study.md (tutorial)](https://github.com/xlab-uiuc/open-cevo/blob/main/commit_study.md), they are HDFS-13607, HDFS-12291, HDFS-12412, HDFS-11998, HDFS-12716, HDFS-11576 and HDFS-12603. Run `commit_selection.py` in `/code/hdfs_demo_examples` to see `commit_selected.txt` and the structured info for each commit.
 ~~~bash
 cd code/hdfs_demo_examples
 python3 commit_selection.py
@@ -136,7 +136,7 @@ We implement software-specific regular expressions which can be found in `diff_f
 
 ### 2.2 Commit Study
 
-We validate, analyze and categorize each commit based on the commit log and diff, as well as the corresponding JIRA or GitHub Issues as described in the paper. Our categorization is based on the taxonomy of Figure 1 and Table II of the submission. This step currently is manually without program automation. We provide a [tutorial](xxx) that contains concrete code examples for every category.
+We validate, analyze and categorize each commit based on the commit log and diff, as well as the corresponding JIRA or GitHub Issues as described in the paper. Our categorization is based on the taxonomy of Figure 1 and Table II of the submission. This step currently is manually without program automation. We provide a [tutorial](https://github.com/xlab-uiuc/open-cevo/blob/main/commit_study.md) that contains concrete code examples for every category.
 
 **Note that one commit can touch several categories; we study it in each category.**
 
@@ -172,4 +172,4 @@ You will need to modify:
 
 ### 3.3 Followup analysis based on the commits in this artifact
 
-We provide an [tutorial](xxx) to explain our taxonomy/categorization to help followup studies.
+We provide an [tutorial](https://github.com/xlab-uiuc/open-cevo/blob/main/commit_study.md) to explain our taxonomy/categorization to help followup studies.
