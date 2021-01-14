@@ -1,0 +1,603 @@
+Issue ID,Commit Link,Title
+SPARK-24794,https://github.com/apache/spark/commit/002f9c169eb20b0d71b6d0296595f343c7f5bab2,DriverWrapper should have both master addresses in -Dspark.master
+SPARK-24337,https://github.com/apache/spark/commit/0053e153faaa76ea38c845adab137d5be970e5af,[CORE] Improve error messages for Spark conf values
+SPARK-24003,https://github.com/apache/spark/commit/007ae6878f4b4defe1f08114212fa7289fc9ee4a,[CORE] Add support to provide spark.executor.extraJavaOptions in terms of App Id and/or Executor Id's
+SPARK-21786,https://github.com/apache/spark/commit/00d169156d4b1c91d2bcfd788b254b03c509dc41,[SQL] The 'spark.sql.parquet.compression.codec' and 'spark.sql.orc.compression.codec' configuration doesn't take effect on hive table writing
+SPARK-22845,https://github.com/apache/spark/commit/0114c89d049724b95f7823b957bf33790216316b,[SCHEDULER] Modify spark.kubernetes.allocation.batch.delay to take time instead of int
+SPARK-22233,https://github.com/apache/spark/commit/014dc8471200518d63005eed531777d30d8a6639,[CORE] Allow user to filter out empty split in HadoopRDD
+SPARK-25501,https://github.com/apache/spark/commit/0166c7373eee2654c49c210927e4e290d103f24f,Add kafka delegation token support.
+SPARK-24737,https://github.com/apache/spark/commit/01fcba2c685be0603a404392685e9d52fb4cb82a,[SQL] Type coercion between StructTypes
+SPARK-24638,https://github.com/apache/spark/commit/03545ce6de08bd0ad685c5f59b73bc22dfc40887,[SQL] StringStartsWith support push down
+SPARK-23310,https://github.com/apache/spark/commit/03b7e120dd7ff7848c936c7a23644da5bd7219ab,[CORE] Turn off read ahead input stream for unshafe shuffle reader
+SPARK-24586,https://github.com/apache/spark/commit/03c9e8adeece2c371cef9e442f8630c52e09ecfb,Upcast should not allow casting from string to other types
+SPARK-22535,https://github.com/apache/spark/commit/03f2b7bff7e537ec747b41ad22e448e1c141f0dd,[PYSPARK] Sleep before killing the python worker in PythonRunner.MonitorThread
+SPARK-24793,https://github.com/apache/spark/commit/05168e725d2a17c4164ee5f9aa068801ec2454f4,Enhance spark-submit for app management
+SPARK-21343,https://github.com/apache/spark/commit/062c336d06a0bd4e740a18d2349e03e311509243,Refine the document for spark.reducer.maxReqSizeShuffle……ToMem.
+SPARK-20981,https://github.com/apache/spark/commit/06c0544113ba77857c5cb1bbf94dcaf21d0b01af,Add new configuration spark.jars.repositor……ies as equivalence of --repositories
+SPARK-27088,https://github.com/apache/spark/commit/074533334d01afdd7862a1ac6c5a7a672bcce3f8,"Apply conf ""spark.sql.optimizer.planChangeLog.level"" to batch plan change in RuleExecutor"
+SPARK-25140,https://github.com/apache/spark/commit/07737c87d6086c986785ff0edc43ca94effa4fc6,Catch correct exceptions when expr codegen fails
+SPARK-17788,https://github.com/apache/spark/commit/079a2609d7ad0a7dd2ec3eaa594e6ed8801a8008,[SPARK-21033][SQL] fix the potential OOM in UnsafeExternalSorter and ShuffleExternalSorter
+SPARK-21033,https://github.com/apache/spark/commit/083cf223569b7896e35ff1d53a73498a4971b28d,][CORE][FOLLOW-UP] Update Spillable
+SPARK-22520,https://github.com/apache/spark/commit/087879a77acb37b790c36f8da67355b90719c2dc,[SQL] Support code generation for large CaseWhen
+SPARK-27868,https://github.com/apache/spark/commit/09ed64d795d3199a94e175273fff6fcea6b52131,[CORE] Better default value and documentation for socket server backlog.
+SPARK-23362,https://github.com/apache/spark/commit/0a73aa31f41c83503d5d99eff3c9d7b406014ab3,[SS] Migrate Kafka Microbatch source to v2
+SPARK-22994,https://github.com/apache/spark/commit/0b2eefb674151a0af64806728b38d9410da552ec,[K8S] Use a single image for all Spark containers.
+SPARK-21728,https://github.com/apache/spark/commit/0bdbefe9dd1e7c95c58ea6b52d3b264794abbc0e,"[CORE] Follow up: fix user config, auth in SparkSubmit logging"
+SPARK-26205,https://github.com/apache/spark/commit/0c23a39384b7ae5fb4aeb4f7f6fe72007b84bbd2,"Optimize InSet expression for bytes, shorts, ints, dates"
+SPARK-25515,https://github.com/apache/spark/commit/0c2935b01def8a5f631851999d9c2d57b63763e6,Adds a config option to keep executor pods for debugging
+SPARK-27378,https://github.com/apache/spark/commit/0ced4c0b132334dac27de3ce45fd4cab8261cfb5,[YARN] YARN support for GPU-aware scheduling
+Pull-Request #21977,https://github.com/apache/spark/commit/0d77d575e14e535fbe29b42e5612f3ddc64d42f4,Add a note that 'spark.executor.pyspark.memory' is dependent on 'resource'
+SPARK-21126,https://github.com/apache/spark/commit/0d8604bb849b3370cc21966cdd773238f3a29f84,"The configuration which named ""spark.core.connection.au……th.wait.timeout"" hasn't been used in spark"
+SPARK-26837,https://github.com/apache/spark/commit/0f2c0b53e8fb18c86c67b5dd679c006db93f94a5,Pruning nested fields from object serializers
+SPARK-21783,https://github.com/apache/spark/commit/0f8a28617a0742d5a99debfbae91222c2e3b5cec,[SQL] Turn on ORC filter push-down by default
+SPARK-22233,https://github.com/apache/spark/commit/0fa10666cf75e3c4929940af49c8a6f6ea874759,[CORE][FOLLOW-UP] Allow user to filter out empty split in HadoopRDD
+SPARK-20652,https://github.com/apache/spark/commit/0ffa7c488fa8156e2a1aa282e60b7c36b86d8af8,[SQL] Store SQL UI data in the new app status store.
+SPARK-25088,https://github.com/apache/spark/commit/10248758438b9ff57f5669a324a716c8c6c8f17b,Update Rest Server docs & defaults.
+SPARK-24836,https://github.com/apache/spark/commit/106880edcd67bc20e8610a16f8ce6aa250268eeb,[SQL] New option for Avro datasource - ignoreExtension
+SPARK-17074,https://github.com/apache/spark/commit/11b60af737a04d931356aa74ebf3c6cf4a6b08d6,[SQL] Generate equi-height histogram in column statistics
+SPARK-20646,https://github.com/apache/spark/commit/11eea1a4ce32c9018218d4dfc9f46b744eb82991,[CORE] Port executors page to new UI backend.
+SPARK-26601,https://github.com/apache/spark/commit/126310ca68f2f248ea8b312c4637eccaba2fdc2b,Make broadcast-exchange thread pool configurable
+SPARK-22151,https://github.com/apache/spark/commit/1272b2034d4eed4bfe60a49e1065871b3a3f96e0,PYTHONPATH not picked up from the spark.yarn.appMasterEnv properly
+SPARK-27362,https://github.com/apache/spark/commit/1277f8fa92da85d9e39d9146e3099fcb75c71a8f,Resource Scheduling support for k8s
+SPARK-25233,https://github.com/apache/spark/commit/135ff16a3510a4dfb3470904004dae9848005019,Give the user the option of specifying a minimum message per partition per batch when using kafka direct API with backpressure
+SPARK-22050,https://github.com/apache/spark/commit/1437e344ec0c29a44a19f4513986f5f184c44695,[CORE] Allow BlockUpdated events to be optionally logged to the event log
+SPARK-24297,https://github.com/apache/spark/commit/15fff79032f6d708d8570b5e83144f1f84519552,[CORE] Fetch-to-disk by default for > 2gb
+SPARK-21501,https://github.com/apache/spark/commit/1662e93119d68498942386906de309d35f4a135f,Change CacheLoader to limit entries based on memory foo……tprintRight
+SPARK-22757,https://github.com/apache/spark/commit/171f6ddadc6185ffcc6ad82e5f48952fb49095b2,"[KUBERNETES] Enable use of remote dependencies (http, s3……, gcs, etc.) in Kubernetes mode"
+SPARK-24860,https://github.com/apache/spark/commit/17f469bc808e076b45fffcedb0147991fa4c41f3,[SQL] Support setting of partitionOverWriteMode in output options for writing DataFrame
+SPARK-23984,https://github.com/apache/spark/commit/1a644afbac35c204f9ad55f86999319a9ab458c6,[K8S] Initial Python Bindings for PySpark on K8s
+SPARK-25677,https://github.com/apache/spark/commit/1a6815cd9f421a106f8d96a36a53042a00f02386,[DOC] spark.io.compression.codec = org.apache.spark.io.ZstdCompressionCodec throwing IllegalArgumentException Exception
+SPARK-25933,https://github.com/apache/spark/commit/1a7abf3f453f7d6012d7e842cf05f29f3afbb3bc,Fix pstats.Stats() reference in configur……ation.md
+SPARK-27754,https://github.com/apache/spark/commit/1a8c09334db87b0e938c38cd6b59d326bdcab3c3,Introduce additional config (spark.kubernetes.driver.request.cores) for driver request cores for spark on k8s
+SPARK-26060,https://github.com/apache/spark/commit/1ab3d3e474ce2e36d58aea8ad09fb61f0c73e5c5,Rename the config name
+SPARK-27783,https://github.com/apache/spark/commit/1ada36b5717f6446f0bc67fbad7c5e12796500b6,[SQL] Add customizable hint error handler
+SPARK-16019,https://github.com/apache/spark/commit/1cad31f00644d899d8e74d58c6eb4e9f72065473,Use separate RM poll interval when starting clien……t AM.
+SPARK-21603,https://github.com/apache/spark/commit/1cce1a3b639c5c793d43fa51a8ec3e0fef622a40,The wholestage codegen will be much slower then th……at is closed when the function is too long
+SPARK-25021,https://github.com/apache/spark/commit/1cfda448255d5b4a0df88148e0f6acd88aa6e318,Add spark.executor.pyspark.memory limit for K8S
+SPARK-25496,https://github.com/apache/spark/commit/1d20d13149140f53df307f47420740f45b4fa5f6,Deprecate from_utc_timestamp and to_utc_timestamp
+SPARK-22626,https://github.com/apache/spark/commit/1d5597b408485e41812f3645a670864ad88570a0,SQL][FOLLOWUP] improve documentation and simplify test case
+SPARK-27349,https://github.com/apache/spark/commit/1d95dea30788b9f64c5e304d908b85936aafb238,Dealing with TimeVars removed in Hive 2.x
+SPARK-21842,https://github.com/apache/spark/commit/1e82335413bc2384073ead0d6d581c862036d0f5,[MESOS] Support Kerberos ticket renewal and creation in Mesos
+SPARK-27677,https://github.com/apache/spark/commit/1e87694f2bc0dea3eaaef936dc8552b3ba421539,Disable by default fetching of disk persisted RDD blocks via external shuffle service
+SPARK-21113,https://github.com/apache/spark/commit/1e978b17d63d7ba20368057aa4e65f5ef6e87369,[CORE] Read ahead input stream to amortize disk IO cost
+SPARK-21866,https://github.com/apache/spark/commit/1edb3175d8358c2f6bfc84a0d958342bd5337a62,[ML][PYSPARK] Adding spark image reader
+SPARK-22529,https://github.com/apache/spark/commit/1ff4a77be498615ee7216fd9cc2d510ecbd43b27,[SQL] Relation stats should be consistent with other plans based on cbo config
+SPARK-20791,https://github.com/apache/spark/commit/209b9361ac8a4410ff797cff1115e1888e2f7e66,[PYSPARK] Use Arrow to create Spark DataFrame from Pandas
+SPARK-25407,https://github.com/apache/spark/commit/215609def22da14c464b37374ceae4f53a39a145,Allow nested access for non-existent field for Parquet file when nested pruning is enabled
+SPARK-10365,https://github.com/apache/spark/commit/21a7bfd5c324e6c82152229f1394f26afeae771c,[SQL] Support Parquet logical type TIMESTAMP_MICROS
+SPARK-24232,https://github.com/apache/spark/commit/21e1fc7d4aed688d7b685be6ce93f76752159c98,[K8S] Add support for secret env vars
+SPARK-24326,https://github.com/apache/spark/commit/22df953f6bb191858053eafbabaa5b3ebca29f56,[MESOS] add support for local:// scheme for the app jar
+SPARK-22880,https://github.com/apache/spark/commit/2333a34d390f2fa19b939b8007be0deb31f31d3c,[SQL] Add cascadeTruncate option to JDBC datasource
+SPARK-20025,https://github.com/apache/spark/commit/23af2d79ad9a3c83936485ee57513b39193a446b,"[CORE] Ignore SPARK_LOCAL* env, while deploying via cluster mode."
+SPARK-27418,https://github.com/apache/spark/commit/23ebd389b5cb528a7ba04113a12929bebfaf1e9a,Migrate Parquet to File Data Source V2
+SPARK-22938,https://github.com/apache/spark/commit/247a08939d58405aef39b2a4e7773aa45474ad12,Assert that SQLConf.get is accessed only on the driver.
+SPARK-19724,https://github.com/apache/spark/commit/249007e37f51f00d14e596692aeac87fbc10b520,SQL] create a managed table with an existed default tabe should throw an exception
+SPARK-24558,https://github.com/apache/spark/commit/2603ae30be78c6cb24a67c26fb781fae8763f229,[CORE] wrong Idle Timeout value is used in case of the cacheBlock.
+SPARK-27870,https://github.com/apache/spark/commit/26998b86c13e79582a3df31f6184f825cde45e73,Add a runtime buffer size configuration for Pandas UDFs
+SPARK-25711,https://github.com/apache/spark/commit/26c1b959cf29b8552beb715cc5d39288d5298bdc,Allow history server to show usage and remove deprecated options
+SPARK-27453,https://github.com/apache/spark/commit/26ed65f4150db1fa37f8bfab24ac0873d2e42936,Pass partitionBy as options in DataFrameWriter
+SPARK-26584,https://github.com/apache/spark/commit/270916f8cd8ba01341f2a38a8376e9e4be08a2e8,Remove `spark.sql.orc.copyBatchToSpark` internal conf
+SPARK-24248,https://github.com/apache/spark/commit/270a9a3cac25f3e799460320d0fc94ccd7ecfaea,[K8S] Use level triggering and state reconciliation in scheduling and lifecycle
+SPARK-22791,https://github.com/apache/spark/commit/28315714ddef3ddcc192375e98dd5207cf4ecc98,[SQL][SS] Redact Output of Explain
+SPARK-20863,https://github.com/apache/spark/commit/2a23cdd078a7409d0bb92cf27718995766c41b1d,Add metrics/instrumentation to LiveListenerBus
+SPARK-20871,https://github.com/apache/spark/commit/2a53fbfce72b3faef020e39a1e8628d68bc95beb,limit logging of Janino code
+SPARK-26595,https://github.com/apache/spark/commit/2a67dbfbd341af166b1c85904875f26a6dea5ba8,Allow credential renewal based on kerberos ticket cache
+SPARK-18580,https://github.com/apache/spark/commit/2b89e4aa2e8bd8b88f6e5eb60d95c1a58e5c4ace,[DSTREAM][KAFKA] Add spark.streaming.backpressure.initialRate to direct Kafka streams
+SPARK-24307,https://github.com/apache/spark/commit/2c82745686f4456c4d5c84040a431dcb5b6cb60b,[CORE] Add conf to revert to old code.
+SPARK-23173,https://github.com/apache/spark/commit/2ca9bb083c515511d2bfee271fc3e0269aceb9d5,[SQL] Avoid creating corrupt parquet files when loading data from JSON
+SPARK-12139,https://github.com/apache/spark/commit/2cbfc975ba937a4eb761de7a6473b7747941f386,REGEX Column Specification
+SPARK-24377,https://github.com/apache/spark/commit/2ced6193b39dc63e5f74138859f2a9d69d3cfd11,[SPARK SUBMIT] make --py-files work in non pyspark application
+SPARK-24918,https://github.com/apache/spark/commit/2f51e72356babac703cc20a531b4dcc7712f34af,Executor Plugin API
+SPARK-26539,https://github.com/apache/spark/commit/2f8a938805ce3c182d61bab8f66b9ff6d90dc83b,Remove spark.memory.useLegacyMode and StaticMemoryManager
+SPARK-21840,https://github.com/apache/spark/commit/3073344a2551fb198d63f2114a519ab97904cb55,[CORE] Add trait that allows conf to be directly set in application.
+SPARK-24149,https://github.com/apache/spark/commit/3159ee085b23e2e9f1657d80b7ae3efe82b5edb9,Retrieve all federated namespaces tokens
+SPARK-27119,https://github.com/apache/spark/commit/31878c9daafb2c05e380b83cb4a04b32d5ff648f,Do not infer schema when reading Hive serde table with native data source
+SPARK-22160,https://github.com/apache/spark/commit/323806e68f91f3c7521327186a37ddd1436267d0,[SQL] Make sample points per partition (in range partitioner) configurable and bump the default value up to 100
+SPARK-20728,https://github.com/apache/spark/commit/326f1d6728a7734c228d8bfaa69442a1c7b92e9b,SQL] Make OrcFileFormat configurable between sql/hive and sql/core
+SPARK-25261,https://github.com/apache/spark/commit/339859c4e4b27726ba8ce9a64451a981ef74de0c,update the description for spark.executor|driver.memory in configuration.md
+SPARK-24518,https://github.com/apache/spark/commit/33e77fa89b5805ecb1066fc534723527f70d37c7,[CORE] Using Hadoop credential provider API to store password
+SPARK-23765,https://github.com/apache/spark/commit/34c4b9c57e114cdb390e4dbc7383284d82fea317,[SQL] Supports custom line separator for json datasource
+SPARK-24817,https://github.com/apache/spark/commit/388f5a0635a2812cd71b08352e3ddc20293ec189,Implement BarrierTaskContext.barrier()
+SPARK-20327,https://github.com/apache/spark/commit/3946de773498621f88009c309254b019848ed490,"Add CLI support for YARN custom resources, like GPUs"
+SPARK-24768,https://github.com/apache/spark/commit/395860a986987886df6d60fd9b26afd818b2cb39,Have a built-in AVRO data source implementation
+SPARK-23238,https://github.com/apache/spark/commit/39d2c6b03488895a0acb1dd3c46329db00fdd357,[SQL] Externalize SQLConf configurations exposed in documentation
+SPARK-24519,https://github.com/apache/spark/commit/39dfaf2fd167cafc84ec9cc637c114ed54a331e3,Make the threshold for highly compressed map status configurable
+SPARK-27192,https://github.com/apache/spark/commit/39f75b45889951b175c48b2e849e920d0a0eee6e,[CORE] spark.task.cpus should be less or equal than spark.executor.cores
+SPARK-24761,https://github.com/apache/spark/commit/3ab48f985c7f96bc9143caad99bf3df7cc984583,[SQL] Adding of isModifiable() to RuntimeConfig
+SPARK-24416,https://github.com/apache/spark/commit/3af1d3e6d95719e15a997877d5ecd3bb40c08b9c,Fix configuration specification for killBlacklisted executors
+SPARK-24367,https://github.com/apache/spark/commit/3b20b34ab72c92d9d20188ed430955e1a94eac9c,SQL] Parquet: use JOB_SUMMARY_LEVEL instead of deprecated flag ENABLE_JOB_SUMMARY
+SPARK-26564,https://github.com/apache/spark/commit/3bd77aa9f6775645407baa4266f6d0c02a8af902,Fix wrong assertions and error messages for PARAMETER checking
+SPARK-26384,https://github.com/apache/spark/commit/3c0bb6bc45e64fd82052d7857f2a06c34f0c1793,Propagate SQL configs for CSV schema inferring
+SPARK-20101,https://github.com/apache/spark/commit/3c3eebc8734e36e61f4627e2c517fbbe342b3b42,"][SQL] Use OffHeapColumnVector when ""spark.sql.columnVector.offheap.enable"" is set to ""true"""
+SPARK-25960,https://github.com/apache/spark/commit/3df307aa515b3564686e75d1b71754bbcaaf2dec,Support subpath mounting with Kubernetes
+SPARK-25295,https://github.com/apache/spark/commit/3e75a9fa24f8629d068b5fbbc7356ce2603fa58d,Fix executor names collision
+SPARK-22646,https://github.com/apache/spark/commit/3f4060c340d6bac412e8819c4388ccba226efcf3,[K8S] Spark on Kubernetes - basic submission client
+SPARK-23549,https://github.com/apache/spark/commit/411ecc365ea62aef7a29d8764e783e6a58dbb1d5,Rename config spark.sql.legacy.compareDateTimestampInTimestamp
+SPARK-23715,https://github.com/apache/spark/commit/417ad92502e714da71552f64d0e1257d2fd5d3d0,[SQL] the input of to/from_utc_timestamp can not have timezone
+SPARK-24626,https://github.com/apache/spark/commit/4193c7623b92765adaee539e723328ddc9048c09,Add statistics prefix to parallelFileListingInStatsComputation
+SPARK-16944,https://github.com/apache/spark/commit/4329eb2e73181819bb712f57ca9c7feac0d640ea,[Mesos] Improve data locality when launching new executors when dynamic allocation is enabled
+SPARK-24802,https://github.com/apache/spark/commit/434319e73f8cb6e080671bdde42a72228bd814ef,Add a new config for Optimization Rule Exclusion
+SPARK-25704,https://github.com/apache/spark/commit/43717dee570dc41d71f0b27b8939f6297a029a02,Allocate a bit less than Int.MaxValue
+SPARK-27528,https://github.com/apache/spark/commit/43a73e387cb843486adcf5b8bbd8b99010ce6e02,Use Parquet logical type TIMESTAMP_MICROS by default
+SPARK-24718,https://github.com/apache/spark/commit/43e4e851b642bbee535d22e1b9e72ec6b99f6ed4,[SQL] Timestamp support pushdown to parquet data source
+SPARK-19112,https://github.com/apache/spark/commit/444bce1c98c45147fe63e2132e9743a0c5e49598,[CORE] Support for ZStandard codec
+SPARK-09104,https://github.com/apache/spark/commit/445f1790ade1c53cf7eee1f282395648e4d0992c,[CORE] Expose Netty memory metrics in Spark
+SPARK-27844,https://github.com/apache/spark/commit/447bfdec830ba5eaaee791e86caad39f4f6661eb,[SQL] Avoid hard-coded config: spark.rdd.parallelListing Threshold in SQL module
+SPARK-20648,https://github.com/apache/spark/commit/4741c07809393ab85be8b4a169d4ed3da93a4781,[CORE] Port JobsTab and StageTab to the new UI backend.
+SPARK-23514,https://github.com/apache/spark/commit/476a7f026bc45462067ebd39cd269147e84cd641,Use SessionState.newHadoopConf() to propage hadoop configs set in SQLConf.
+SPARK-24156,https://github.com/apache/spark/commit/47b5b68528c154d32b3f40f388918836d29462b8,[SS] Enabled no-data batches in MicroBatchExecution for streaming aggregation and deduplication.
+SPARK-25457,https://github.com/apache/spark/commit/47d6e80a2e64823fabb596503fb6a6cc6f51f713,IntegralDivide returns data type of the operands
+SPARK-28118,https://github.com/apache/spark/commit/47f54b1ec717d0d744bf3ad46bb1ed3542b667c8,[CORE] Add `spark.eventLog.compression.codec` configuration
+SPARK-26788,https://github.com/apache/spark/commit/4808393449ccad2c6bc73c91d0ed8dd8f60c7054,Remove SchedulerExtensionService.
+SPARK-23196,https://github.com/apache/spark/commit/49b0207dc9327989c72700b4d04d2a714c92e159,Unify continuous and microbatch V2 sinks
+SPARK-19724,https://github.com/apache/spark/commit/4a11209539130c6a075119bf87c5ad854d42978e,allowCreatingManagedTableUsingNonemptyLocation should have legacy prefix
+SPARK-24241,https://github.com/apache/spark/commit/4a2b15f0af400c71b7f20b2048f38a8b74d43dfa,[SUBMIT] Do not fail fast when dynamic resource allocation enabled with 0 executor
+SPARK-21871,https://github.com/apache/spark/commit/4a779bdac3e75c17b7d36c5a009ba6c948fa9fb6,[SQL] Check actual bytecode size when compiling generated code
+SPARK-25815,https://github.com/apache/spark/commit/4b3fe3a9ccc8a4a8eb0d037d19cb07a8a288e37a,"Support kerberos in client mode, keytab-based token renewal."
+SPARK-27532,https://github.com/apache/spark/commit/4cb1cd6ab7b7bffd045a786b0ddb7c7783afdf46,"Correct the default value in the Documentation for…… ""spark.redaction.regex"""
+SPARK-25366,https://github.com/apache/spark/commit/4d114fc9a2cb0be7256560bc8b2e4ce72adb7a7f,Document Zstd and brotli CompressionCodec requirements for Parquet files
+SPARK-24680,https://github.com/apache/spark/commit/4d693ac904d89b3afeba107eb0480120daf78174,Support spark.executorEnv.JAVA_HOME in Standalone mode
+SPARK-19355,https://github.com/apache/spark/commit/4f175850985cfc4c64afb90d784bb292e81dc0b7,Use map output statistics to improve global limit'……s parallelism
+SPARK-26503,https://github.com/apache/spark/commit/4ff2b94a7c827f9cc3e6c79fe090568d2743c0ca,Get rid of spark.sql.legacy.timeParser.enabled
+SPARK-23538,https://github.com/apache/spark/commit/508573958dc9b6402e684cd6dd37202deaaa97f6,[CORE] Remove custom configuration for SSL client.
+SPARK-25372,https://github.com/apache/spark/commit/51540c2fa677658be954c820bc18ba748e4c8583,Deprecate and generalize keytab / principal config
+SPARK-26503,https://github.com/apache/spark/commit/51a6ba0181a013f2b62b47184785a8b6f6a78f12,Get rid of spark.sql.legacy.timeParser.enabled
+SPARK-13704,https://github.com/apache/spark/commit/52838e74afdd58a7c09707284b4e0232dc01ef26,Reduce rack resolution time
+SPARK-24332,https://github.com/apache/spark/commit/53c06ddabbdf689f8823807445849ad63173676f,[SS][MESOS] Fix places reading 'spark.network.timeout' as milliseconds
+SPARK-24182,https://github.com/apache/spark/commit/54032682b910dc5089af27d2c7b6efe55700f034,[YARN] Improve error message when client AM fails
+SPARK-22131,https://github.com/apache/spark/commit/5415963d2caaf95604211419ffc4e29fff38e1d7,[MESOS] Mesos driver secrets
+SPARK-22683,https://github.com/apache/spark/commit/55c4ca88a3b093ee197a8689631be8d1fac1f10f,[CORE] Add a executorAllocationRatio PARAMETER to throttle the parallelism of the dynamic allocation
+SPARK-22282,https://github.com/apache/spark/commit/561505e2fc290fc2cee3b8464ec49df773dca5eb,[SQL] Rename OrcRelation to OrcFileFormat and remove ORC_COMPRESSION
+SPARK-20950,https://github.com/apache/spark/commit/565e7a8d4ae7879ee704fb94ae9b3da31e202d7e,add a new config to diskWriteBufferSize which is ……hard coded before
+SPARK-23146,https://github.com/apache/spark/commit/571a6f0574e50e53cea403624ec3795cd03aa204,Support client mode.
+SPARK-20101,https://github.com/apache/spark/commit/572af5027e45ca96e0d283a8bf7c84dcf476f9bc,"[SQL][FOLLOW-UP] use correct config name ""spark.sql.colu……mnVector.offheap.enabled"""
+SPARK-21527,https://github.com/apache/spark/commit/574ef6c987c636210828e96d2f797d8f10aff05e,Use buffer limit in order to use JAVA NIO Util's ……buffercache
+SPARK-26998,https://github.com/apache/spark/commit/57aff93886ac7d02b88294672ce0d2495b0942b8,Remove SSL configuration from executors
+SPARK-22554,https://github.com/apache/spark/commit/57c5514de9dba1c14e296f85fb13fef23ce8c73f,[PYTHON] Add a config to control if PySpark should use daemon or not for workers
+SPARK-26239,https://github.com/apache/spark/commit/57d6fbfa8c803ce1791e7be36aba0219a1fcaa63,File-based secret key loading for SASL.
+SPARK-21012,https://github.com/apache/spark/commit/5800144a54f5c0180ccf67392f32c3e8a51119b1,Add glob support for resources adding to Spark
+SPARK-21428,https://github.com/apache/spark/commit/581200af717bcefd11c9930ac063fe53c6fd2fde,][SQL][FOLLOWUP] CliSessionState should point to the actual metastore not a dummy one
+SPARK-22188,https://github.com/apache/spark/commit/5a07aca4d464e96d75ea17bf6768e24b829872ec,"[CORE] Adding security headers for preventing XSS, MitM and MIME sniffing"
+SPARK-26263,https://github.com/apache/spark/commit/5a140b7844936cf2b65f08853b8cfd8c499d4f13,Validate partition values with user provided schema
+SPARK-27343,https://github.com/apache/spark/commit/5a8aad01c2aaf0ceef8e9a3cfabbd2e88c8d9f0d,Avoid hardcoded for spark-sql-kafka-0-10
+SPARK-25271,https://github.com/apache/spark/commit/5ad03607d1487e7ab3e3b6d00eef9c4028ed4975,Hive ctas commands should use data source if it is…… convertible
+SPARK-28052,https://github.com/apache/spark/commit/5ae1a6bf0dea9e74ced85686ef33a87cfa3e90c2,Make `ArrayExists` follow the three-valued boolean logic.
+SPARK-20923,https://github.com/apache/spark/commit/5b5a69bea9de806e2c39b04b248ee82a7b664d7b,turn tracking of TaskMetrics._updatedBlockStatuses off
+SPARK-22962,https://github.com/apache/spark/commit/5d7c4ba4d73a72f26d591108db3c20b4a6c84f3f,Fail fast if submission client local files are used
+SPARK-23153,https://github.com/apache/spark/commit/5e74570c8f5e7dfc1ca1c53c177827c5cea57bf1,Support client dependencies with a Hadoop Compatib……le File System
+SPARK-24783,https://github.com/apache/spark/commit/5ebb4b572318abf1b483b5a8f41aa9b021eb5327,spark.sql.shuffle.partitions=0 should throw exception
+SPARK-25118,https://github.com/apache/spark/commit/5f11e8c4cb9a5db037ac239b8fcc97f3a746e772,Need a solution to persist Spark application console outputs when running in shell/yarn client mode
+SPARK-23361,https://github.com/apache/spark/commit/5fa438471110afbf4e2174df449ac79e292501f8,[YARN] Allow AM to restart after initial tokens expire.
+SPARK-22968,https://github.com/apache/spark/commit/5fccdae18911793967b315c02c058eb737e46174,[DSTREAM] Throw an exception on partition revoking issue
+SPARK-26890,https://github.com/apache/spark/commit/5fd28e8f5c319492db4ef1e2c0a5a77f85ac029b,[DOC] Add Dropwizard metrics list and additional configuration details to the documentation
+SPARK-26192,https://github.com/apache/spark/commit/5fd4d7499c9f2925268d84b5d74ecafaebe2113d,Retrieve enableFetcherCache OPTION from submissi……on for driver URIs
+SPARK-23529,https://github.com/apache/spark/commit/5ff1b9ba1983d5601add62aef64a3e87d07050eb,[K8S] Support mounting volumes
+SPARK-27394,https://github.com/apache/spark/commit/5ff39cd5ee92da0d08380c7a680d350ff6f4b5db,Flush LiveEntity if necessary when receiving SparkListenerExecutorMetricsUpdate
+SPARK-24730,https://github.com/apache/spark/commit/6078b891da8fe7fc36579699473168ae7443284c,[SS] Add policy to choose max as global watermark when streaming query has multiple watermarks
+SPARK-25160,https://github.com/apache/spark/commit/60af2501e1afc00192c779f2736a4e3de12428fa,Avro: remove sql configuration spark.sql.avro.outp……utTimestampType
+SPARK-27588,https://github.com/apache/spark/commit/618d6bff71073c8c93501ab7392c3cc579730f0b,Binary file data source fails fast and doesn't attempt to read very large files
+SPARK-24978,https://github.com/apache/spark/commit/6193a202aab0271b4532ee4b740318290f2c44a1,Add spark.sql.fast.hash.aggregate.row.max.capacity to configure the capacity of fast aggregation.
+SPARK-21127,https://github.com/apache/spark/commit/61b5df567eb8ae0df4059cb0e334316fff462de9,Update statistics after data changing commands
+SPARK-24137,https://github.com/apache/spark/commit/6282fc64e32fc2f70e79ace14efd4922e4535dbb,[K8S] Mount local directories as empty dir volumes.
+SPARK-25641,https://github.com/apache/spark/commit/6353425af76f9cc9de7ee4094f41df7a7390d898,Change the spark.shuffle.server.chunkFetchHandlerThreadsPercent default to 100
+SPARK-21247,https://github.com/apache/spark/commit/6412ea1759d39a2380c572ec24cfd8ae4f2d81f7,[SQL] Type comparison should respect case-sensitive SQL conf
+SPARK-22133,https://github.com/apache/spark/commit/6447d7bc1de4ab1d99a8dfcd3fea07f5a2da363d,[DOCS] Documentation for Mesos Reject Offer Configurations
+SPARK-22395,https://github.com/apache/spark/commit/64817c423c0d82a805abd69a3e166e5bfd79c739,[SQL][PYTHON] Fix the behavior of timestamp values for Pandas to respect session timezone
+SPARK-26477,https://github.com/apache/spark/commit/64cc9e572e0213d5dea241b2b48ecdd68a5c6c99,Use ConfigEntry for hardcoded configs for unsafe category
+SPARK-24244,https://github.com/apache/spark/commit/64fad0b519cf35b8c0a0dec18dd3df9488a5ed25,[SQL] Passing only required columns to the CSV parser
+SPARK-06951,https://github.com/apache/spark/commit/653fe02415a537299e15f92b56045569864b6183,[CORE] Speed up parsing of event logs during listing.
+SPARK-27638,https://github.com/apache/spark/commit/66f5a42ca5d259038f0749ae2b9a04cc2f658880,Cast string to date/timestamp in binary comparisons with dates/timestamps
+SPARK-17310,https://github.com/apache/spark/commit/673c67046598d33b9ecf864024ca7a937c1998d6,[SQL] Add an option to disable record-level filter in Parquet-side
+SPARK-27835,https://github.com/apache/spark/commit/6748b486a9afe8370786efb64a8c9f3470c62dcf,Resource Scheduling: change driver config from addresses
+SPARK-26089,https://github.com/apache/spark/commit/688b0c01fac0db80f6473181673a89f1ce1be65b,Handle corruption in large shuffle blocks
+SPARK-27184,https://github.com/apache/spark/commit/68abf77b1ad8da7916a9dc5fa8bb350b64479410,"Avoid hardcoded 'spark.jars', 'spark.files'"
+SPARK-24215,https://github.com/apache/spark/commit/6a0b77a55d53e74ac0a0892556c3a7a933474948,PYSPARK][FOLLOW UP] Implement eager evaluation for DataFrame APIs in PySpark
+SPARK-18061,https://github.com/apache/spark/commit/6a2325448000ba431ba3b982d181c017559abfe3,[THRIFTSERVER] Add spnego auth support for ThriftServer thrift/http protocol
+SPARK-22998,https://github.com/apache/spark/commit/6a4206ff04746481d7c8e307dfd0d31ff1402555,[K8S] Set missing value for SPARK_MOUNTED_CLASSPATH in the executors
+SPARK-21417,https://github.com/apache/spark/commit/6ac57fd0d1c82b834eb4bf0dd57596b92a99d6de,[SQL] Infer join conditions using propagated constraints
+Pull-Request #20948,https://github.com/apache/spark/commit/6ade5cbb498f6c6ea38779b97f2325d5cf5013f2,[DOC] Fix some typos and grammar issues
+SPARK-25876,https://github.com/apache/spark/commit/6be272b75b4ae3149869e19df193675cc4117763,Simplify configuration types in k8s backend
+SPARK-24763,https://github.com/apache/spark/commit/6c5cb85856235efd464b109558896f81ae2c4c75,Remove redundant key data from value in streaming aggregation
+SPARK-23257,https://github.com/apache/spark/commit/6c9c84ffb9c8d98ee2ece7ba4b010856591d383d,Kerberos Support for Spark on K8S
+SPARK-25839,https://github.com/apache/spark/commit/6cd23482d1ae8c6a9fe9817ed51ee2a039d46649,Implement use of KryoPool in KryoSerializer
+SPARK-26255,https://github.com/apache/spark/commit/6d45e6ea1507943f6ee833af8ad7969294b0356a,Apply user provided UI filters to SQL tab in yarn  mode
+SPARK-26322,https://github.com/apache/spark/commit/6daa78309460e338dd688cf6cdbd46a12666f72e,Add spark.kafka.sasl.token.mechanism to ease delegation token configuration.
+SPARK-26389,https://github.com/apache/spark/commit/701b06a7e2e76e5d9ed020c62e0ed3464fa2818b,Add force delete temp checkpoint configuration
+SPARK-25705,https://github.com/apache/spark/commit/703e6da1ecb52ab5b8f42b3b4cac39f27caa51d8,Remove Kafka 0.8 integration
+SPARK-24926,https://github.com/apache/spark/commit/70462f291bf046c648f36063b0161861e6d11898,Ensure numCores is used consistently in all netty configurations
+Pull-Request #22116,https://github.com/apache/spark/commit/709f541dd0c41c2ae8c0871b2593be9100bfc4ee,Update configuration.mdchanged $SPARK_HOME/conf/spark-default.conf to $SPARK_HOME/conf/spark-defaults.conf
+SPARK-22993,https://github.com/apache/spark/commit/70bcc9d5ae33d6669bb5c97db29087ccead770fb,[ML] Clarify HasCheckpointInterval param doc
+SPARK-25583,https://github.com/apache/spark/commit/71876633f3af706408355b5fb561b58dbc593360,Add history-server related configuration in the documentation.
+SPARK-24966,https://github.com/apache/spark/commit/73dd6cf9b558f9d752e1f3c13584344257ad7863,Implement precedence rules for set operations.
+SPARK-20642,https://github.com/apache/spark/commit/74daf622de4e534d5a5929b424a6e836850eefad,[CORE] Store FsHistoryProvider listing data in a KVStore.
+SPARK-23366,https://github.com/apache/spark/commit/7539ae59d6c354c95c50528abe9ddff6972e960f,Improve hot reading path in ReadAheadInputStream
+SPARK-22788,https://github.com/apache/spark/commit/7570eab6bee57172ee3746207261307690a57b72,[STREAMING] Use correct hadoop config for fs append support
+SPARK-04502,https://github.com/apache/spark/commit/76399d75e23f2c7d6c2a1fb77a4387c5e15c809b,Rename to spark.sql.optimizer.nestedSchemaPruning.enabled
+SPARK-21701,https://github.com/apache/spark/commit/763b83ee84cbb6f263218c471dd9198dd6bee411,Enable RPC client to use ` SO_RCVBUF` and ` SO_SN……DBUF` in SparkConf.
+SPARK-25950,https://github.com/apache/spark/commit/76813cfa1e2607ea3b669a79e59b568e96395b2e,from_csv should respect to spark.sql.columnNameOfCorruptRecord
+Pull-Request #20344,https://github.com/apache/spark/commit/76b8b840ddc951ee6203f9cccd2c2b9671c1b5e8,Typo fixes
+SPARK-24479,https://github.com/apache/spark/commit/7703b46d2843db99e28110c4c7ccf60934412504,[SS] Added config for registering streamingQueryListeners
+SPARK-20653,https://github.com/apache/spark/commit/772e4648d95bda3353723337723543c741ea8476,[CORE] Add cleaning of old elements from the status store.
+SPARK-25708,https://github.com/apache/spark/commit/78e133141ce8131c60181f947346802864b0951a,HAVING without GROUP BY means global aggregate
+SPARK-27872,https://github.com/apache/spark/commit/7912ab85a6fc086b814d93e7c71af1f50515517a,[K8S] Fix executor service account inconsistency
+SPARK-24757,https://github.com/apache/spark/commit/79c66894296840cc4a5bf6c8718ecfd2b08bcca8,[SQL] Improving the error message for broadcast timeouts
+SPARK-22574,https://github.com/apache/spark/commit/7a51e71355485bb176a1387d99ec430c5986cbec,[MESOS][SUBMIT] Check submission request PARAMETERs
+SPARK-22648,https://github.com/apache/spark/commit/7ab165b7061d9acc26523227076056e94354d204,[K8S] Spark on Kubernetes - Documentation
+SPARK-25004,https://github.com/apache/spark/commit/7ad18ee9f26e75dbe038c6034700f9cd4c0e2baa,Add spark.executor.pyspark.memory limit.
+SPARK-21786,https://github.com/apache/spark/commit/7b78041423b6ee330def2336dfd1ff9ae8469c59,"SQL] When acquiring 'compressionCodecClassName' in 'ParquetOptions', `parquet.compression` needs to be considered."
+SPARK-26463,https://github.com/apache/spark/commit/7bf0794651f4d11547325539ebf7131a57ee1ba2,Use ConfigEntry for hardcoded configs for scheduler categories.
+SPARK-22043,https://github.com/apache/spark/commit/7c7266208a3be984ac1ce53747dc0c3640f4ecac,[PYTHON] Improves error message for show_profiles and dump_profiles
+SPARK-24773,https://github.com/apache/spark/commit/7cf16a7fa4eb4145c0c5d1dd2555f78a2fdd8d8b,Avro: support logical timestamp type with different precisions
+SPARK-22428,https://github.com/apache/spark/commit/7e5f669eb684629c88218f8ec26c01a41a6fef32,[DOC] Add spark application garbage collector configurat
+SPARK-24307,https://github.com/apache/spark/commit/7e847646d1f377f46dc3154dea37148d4e557a03,[CORE] Support reading remote cached partitions > 2gb
+SPARK-23491,https://github.com/apache/spark/commit/7ec83658fbc88505dfc2d8a6f76e90db747f1292,[SS] Remove explicit job cancellation from ContinuousExecution reconfiguring
+SPARK-16501,https://github.com/apache/spark/commit/7f10cf83f311526737fc96d5bb8281d12e41932f,[MESOS] Allow providing Mesos principal & secret via files
+SPARK-21253,https://github.com/apache/spark/commit/80f7ac3a601709dd9471092244612023363f54cd,Disable spark.reducer.maxReqSizeShuffleToMem
+SPARK-26103,https://github.com/apache/spark/commit/812ad5546148d2194ab0e4230ee85b8f6a5be2fb,Limit the length of debug strings for query plans
+SPARK-26066,https://github.com/apache/spark/commit/81550b38e43fb20f89f529d2127575c71a54a538,Moving truncatedString to sql/catalyst
+SPARK-25753,https://github.com/apache/spark/commit/81a305dd0418f6e0136b4e38ffe91e0b76c8806e,fix reading small files via BinaryFileRDD
+SPARK-27141,https://github.com/apache/spark/commit/8204dc1e548b87aabaf36c5800592bafd44e4419,Use ConfigEntry for hardcoded configs for Yarn
+SPARK-25696,https://github.com/apache/spark/commit/82c1ac48a37bcc929db86515bffd602c381415be,The storage memory displayed on spark Application UI is incorrect.
+SPARK-21917,https://github.com/apache/spark/commit/8319432af60b8e1dc00f08d794f7d80591e24d0c,[CORE][YARN] Supporting adding http(s) resources in yarn mode
+SPARK-27649,https://github.com/apache/spark/commit/8329e7debdaf6db9f3a52094bbc5dc4c1e2771ea,Unify the way use 'spark.network.timeout'
+SPARK-27253,https://github.com/apache/spark/commit/83f628b57da39ad9732d1393aebac373634a2eb9,Add a legacy flag to restore old session init behavior
+SPARK-23165,https://github.com/apache/spark/commit/84a076e0e9a38a26edf7b702c24fdbbcf1e697b9,[DOC] Spelling mistake fix in quick-start doc.
+SPARK-23240,https://github.com/apache/spark/commit/862fa697d829cdddf0f25e5613c91b040f9d9652,Better error message when extraneous data in py……spark.daemon's stdout
+SPARK-22789,https://github.com/apache/spark/commit/8941a4abcada873c26af924e129173dc33d66d71,Map-only continuous processing execution
+SPARK-27665,https://github.com/apache/spark/commit/8949bc7a3c1133bc17dac25111b222a788b826a8,Split fetch shuffle blocks protocol from OpenBlocks
+SPARK-24193,https://github.com/apache/spark/commit/8a837bf4f3f2758f7825d2362cf9de209026651a,create TakeOrderedAndProjectExec only when the limit number is below spark.sql.execution.topKSortFallbackThreshold
+SPARK-26288,https://github.com/apache/spark/commit/8b0aa59218c209d39cbba5959302d8668b885cf6,add initRegisteredExecutorsDB
+SPARK-20654,https://github.com/apache/spark/commit/8b497046c647a21bbed1bdfbdcb176745a1d5cd5,[CORE] Add config to limit disk usage of the history server.
+SPARK-25415,https://github.com/apache/spark/commit/8b702e1e0aba1d3e4b0aa582f20cf99f80a44a09,Make plan change log in RuleExecutor configurable by SQLConf
+SPARK-24717,https://github.com/apache/spark/commit/8b7d4f842fdc90b8d1c37080bdd9b5e1d070f5c0,[SS] Split out max retain version of state for memory in HDFSBackedStateStoreProvider
+SPARK-24133,https://github.com/apache/spark/commit/8bd27025b7cf0b44726b6f4020d294ef14dbbb7e,[SQL] Check for integer overflows when resizing WritableColumnVectors
+SPARK-24324,https://github.com/apache/spark/commit/8c2edf46d0f89e5ec54968218d89f30a3f8190bc,PYTHON][FOLLOW-UP] Rename the Conf to spark.sql.legacy.execution.pandas.groupedMap.assignColumnsByName
+SPARK-26530,https://github.com/apache/spark/commit/8d667c511c41239033defed6dfb07414ad98935d,Validate heartheat arguments in HeartbeatReceiver
+SPARK-25207,https://github.com/apache/spark/commit/8d9495a8f1e64dbc42c3741f9bcbd4893ce3f0e9,Case-insensitve field resolution for filter pushdown when reading Parquet
+SPARK-21000,https://github.com/apache/spark/commit/8da3f7041aafa71d7596b531625edb899970fec2,Add Mesos labels support to the Spark Dispatcher
+SPARK-27008,https://github.com/apache/spark/commit/8e5f9995cad409799f3646b3d03761a771ea1664,Support java.time.LocalDate as an external type of…… DateType
+SPARK-22366,https://github.com/apache/spark/commit/8e9863531bebbd4d83eafcbc2b359b8bd0ac5734,Support ignoring missing files
+SPARK-22754,https://github.com/apache/spark/commit/8eb5609d8d961e54aa1ed0632f15f5e570fa627a,[DEPLOY] Check whether spark.executor.heartbeatInterval bigger than spark.network.timeout or not
+Pull-Request #22070,https://github.com/apache/spark/commit/8ec25cd67e7ac4a8165917a4211e17aa8f7b394d,Fix typos detected by github.com/client9-misspell
+SPARK-27261,https://github.com/apache/spark/commit/8ec6cb67c71c67788230cab8a0cd34d8ad3ce24b,[DOC] Improve app submission doc for passing multiple configs
+SPARK-26060,https://github.com/apache/spark/commit/8edb64c1b9ee49d836e171a459dd93f524df92bf,Track SparkConf entries and make SET command reject such entries.
+SPARK-24340,https://github.com/apache/spark/commit/8ef167a5f9ba8a79bb7ca98a9844fe9cfcfea060,[CORE] Clean up non-shuffle disk block manager files following executor exits on a Standalone cluster
+SPARK-24665,https://github.com/apache/spark/commit/8f91c697e251423b826cd6ac4ddd9e2dac15b96e,Use SQLConf in PySpark to manage all sql configs
+SPARK-25904,https://github.com/apache/spark/commit/8fbc1830f962c446b915d0d8ff2b13c5c75d22fc,Allocate arrays smaller than Int.MaxValue
+SPARK-27811,https://github.com/apache/spark/commit/8feb80ad86bb6a832d784a2780caccba5c428fbc,Improve docs about spark.driver.memoryOverh……ead and spark.executor.memoryOverhead.
+SPARK-22489,https://github.com/apache/spark/commit/8ff474f6e543203fac5d49af7fbe98a8a98da567,[CORE] Remove JobProgressListener.
+SPARK-25245,https://github.com/apache/spark/commit/90a810352e94c0b74c19324301e51e8f5bbe98dd,"Explain regarding limiting modification on ""spark.sql.shuffle.partitions"" for structured streaming"
+SPARK-24958,https://github.com/apache/spark/commit/90c77ea3132d0b7a12c316bd42fb8d0f59bee253,Add memory from procfs to executor metrics.
+SPARK-24452,https://github.com/apache/spark/commit/90da7dc241f8eec2348c0434312c97c116330bc4,[SQL][CORE] Avoid possible overflow in int add or multiple
+SPARK-22217,https://github.com/apache/spark/commit/9104add4c7c6b578df15b64a8533a1266f90734e,[SQL] ParquetFileFormat to support arbitrary OutputCommitters
+SPARK-23429,https://github.com/apache/spark/commit/9241e1e7e66574cfafa68791771959dfc39c9684,Add executor memory metrics to heartbeat and expose in executors REST API
+SPARK-24954,https://github.com/apache/spark/commit/92b48842b944a3e430472294cdc3c481bad6b804,Fail fast on job submit if run a barrier stage with dynamic resource allocation enabled
+SPARK-22833,https://github.com/apache/spark/commit/9348e684208465a8f75c893bdeaa30fc42c0cb5f,[EXAMPLE] Improvement SparkHive Scala Examples
+SPARK-24157,https://github.com/apache/spark/commit/936c920347e196381b48bc3656ca81a06f2ff46d,Rename to spark.sql.streaming.noDataMicroBatches.enabled
+SPARK-27215,https://github.com/apache/spark/commit/93c6d2a198d1b3070eea32210042873c68d0d5f7,Correct the kryo configurations
+SPARK-21595,https://github.com/apache/spark/commit/94439997d57875838a8283c543f9b44705d3a503,Separate thresholds for buffering and spilling in Exter……nalAppendOnlyUnsafeRowArray
+SPARK-26650,https://github.com/apache/spark/commit/94ab4901dadbf5de95a88ec5b1b77efee2e764b7,Demote noisy HBase-related log message.
+SPARK-23207,https://github.com/apache/spark/commit/94c67a76ec1fda908a671a47a2a1fa63b3ab1b06,[SQL] Shuffle+Repartition on a DataFrame could lead to incorrect answers
+SPARK-24549,https://github.com/apache/spark/commit/9549a2814951f9ba969955d78ac4bd2240f85989,Support Decimal type push down to the parquet data…… sources
+SPARK-20858,https://github.com/apache/spark/commit/960298ee66b9b8a80f84df679ce5b4b3846267f4,Document ListenerBus event queue size
+SPARK-23029,https://github.com/apache/spark/commit/9678941f54ebc5db935ed8d694e502086e2a31c0,DOCS] Specifying default units of configuration entries
+SPARK-26215,https://github.com/apache/spark/commit/967e4cb0112e2dd94bc75251c23bb9e854ee97a0,define reserved keywords after SQL standard
+SPARK-22239,https://github.com/apache/spark/commit/9786ce66c52d41b1d58ddedb3a984f561fd09ff3,[SQL][PYTHON] Enable grouped aggregate pandas UDFs as window functions with unbounded window frames
+Pull-Request #23418,https://github.com/apache/spark/commit/993736154b6a46ffd7c3218173a2653a3842bba0,Fix inconsistency log level among delegation token providers
+SPARK-24296,https://github.com/apache/spark/commit/99d2e4e00711cffbfaee8cb3da9b6b3feab8ff18,Replicate large blocks as a stream.
+Pull-Request #20175,https://github.com/apache/spark/commit/9a7048b2889bd0fd66e68a0ce3e07e466315a051,[HOTFIX] Fix style checking failure
+SPARK-23049,https://github.com/apache/spark/commit/9a96bfc8bf021cb4b6c62fac6ce1bcf87affcd43,[SQL] `spark.sql.files.ignoreCorruptFiles` should work for ORC files
+SPARK-26304,https://github.com/apache/spark/commit/9b1f6c8bab5401258c653d4e2efb50e97c6d282f,Add default value to spark.kafka.sasl.kerberos.service.name
+SPARK-26362,https://github.com/apache/spark/commit/9ccae0c9e7d1a0a704e8cd7574ba508419e05e30,Remove 'spark.driver.allowMultipleContexts' to disallow multiple Spark contexts
+SPARK-26080,https://github.com/apache/spark/commit/9cda9a892d03f60a76cd5d9b4546e72c50962c85,[PYTHON] Skips Python resource limit on Windows in Python worker
+SPARK-23997,https://github.com/apache/spark/commit/9e0f9591afccc97cd54a133d8ed10512d14f4f91,[SQL][FOLLOWUP] Update exception message
+SPARK-13669,https://github.com/apache/spark/commit/9e50a1d37a4cf0c34e20a7c1a910ceaff41535a2,Improve the blacklist mechanism to h……andle external shuffle service unavailable situation
+Pull-Request #23030,https://github.com/apache/spark/commit/a00aaf649cb5a14648102b2980ce21393804f2c7,[YARN] Make memLimitExceededLogMessage more clean
+SPARK-21923,https://github.com/apache/spark/commit/a11db942aaf4c470a85f8a1b180f034f7a584254,[CORE] Avoid calling reserveUnrollMemoryForThisTask for every record
+SPARK-23711,https://github.com/apache/spark/commit/a40ffc656d62372da85e0fa932b67207839e7fde,[SQL] Add fallback generator for UnsafeProjection
+SPARK-21673,https://github.com/apache/spark/commit/a4470bc78ca5f5a090b6831a7cdca88274eb9afc,Use the correct sandbox environment variable set by Mesos
+SPARK-24324,https://github.com/apache/spark/commit/a5849ad9a3e5d41b5938faa7c592bcc6aec36044,[PYTHON] Pandas Grouped Map UDF should assign result columns by name
+SPARK-20236,https://github.com/apache/spark/commit/a66fe36cee9363b01ee70e469f1c968f633c5713,[SQL] dynamic partition overwrite
+SPARK-26698,https://github.com/apache/spark/commit/aa3d16d68b7ebd9210c330905f01590ef93d875c,Use ConfigEntry for hardcoded configs for memory and storage categories
+SPARK-23820,https://github.com/apache/spark/commit/ab25c967905ca0973fc2f30b8523246bb9244206,Enable use of long form of callsite in logs
+SPARK-26085,https://github.com/apache/spark/commit/ab2eafb3cdc7631452650c6cac03a92629255347,"Key attribute of non-struct type under typed aggregation should be named as ""key"" too"
+SPARK-26118,https://github.com/apache/spark/commit/ab61ddb34d58ab5701191c8fd3a24a62f6ebf37b,Make Jetty's requestHeaderSize configurable in Spark
+SPARK-25129,https://github.com/apache/spark/commit/ac0174e55af2e935d41545721e9f430c942b3a0c,Make the mapping of com.databricks.spark.avro to built-in module configurable
+SPARK-24743,https://github.com/apache/spark/commit/ac78bcce00ff8ec8e5b7335c2807aa0cd0f5406a,EXAMPLES] Update the JavaDirectKafkaWordCount example to support the new API of kafka
+SPARK-12297,https://github.com/apache/spark/commit/acf7ef3154e094875fa89f30a78ab111b267db91,[SQL] Adjust timezone for int96 data from impala
+SPARK-26311,https://github.com/apache/spark/commit/ae5b2a6a92be4986ef5b8062d7fb59318cff6430,New feature: apply custom log URL pattern for executor log URLs in SHS
+SPARK-23640,https://github.com/apache/spark/commit/ae9172017c361e5c1039bc2ca94048117021974a,[CORE] Fix hadoop config may override spark config
+SPARK-24360,https://github.com/apache/spark/commit/aeff69bd879661367367f39b5dfecd9a76223c0b,Support Hive 3.1 metastore
+SPARK-25855,https://github.com/apache/spark/commit/af3b8160704b27dd8ed2b95b61edeec6968685be,Don't use Erasure Coding for event log files
+SPARK-22159,https://github.com/apache/spark/commit/af8a34c787dc3d68f5148a7d9975b52650bb7729,"[SQL][FOLLOW-UP] Make config names consistently end with ""enabled"""
+SPARK-22959,https://github.com/apache/spark/commit/afae8f2bc82597593595af68d1aa2d802210ea8b,[PYTHON] Configuration to select the modules for daemon and worker in PySpark
+SPARK-23727,https://github.com/apache/spark/commit/b02e76cbffe9e589b7a4e60f91250ca12a4420b2,[SQL] Support for pushing down filters for DateType in p arquet
+SPARK-26902,https://github.com/apache/spark/commit/b0450d07bd5a77a519a662351ca5b5d562e61a58,Support java.time.Instant as an external type of TimestampType
+SPARK-26470,https://github.com/apache/spark/commit/b1a9b5eff59f64c370cd7388761effdf2152a108,Use ConfigEntry for hardcoded configs for eventLog category.
+SPARK-21593,https://github.com/apache/spark/commit/b1d59e60dee2a41f8eff8ef29b3bcac69111e2f0,Fix 2 rendering errors on configuration page
+SPARK-22274,https://github.com/apache/spark/commit/b2ce17b4c9fea58140a57ca1846b2689b15c0d61,[PYTHON][SQL] User-defined aggregation functions with pandas udf
+SPARK-24727,https://github.com/apache/spark/commit/b2deef64f604ddd9502a31105ed47cb63470ec85,SQL] Add a static config to control cache size for generated classes
+SPARK-23572,https://github.com/apache/spark/commit/b30a7d28b399950953d4b112c57d4c9b9ab223e9,"[DOCS] Bring ""security.md"" up to date."
+SPARK-22187,https://github.com/apache/spark/commit/b3d88ac02940eff4c867d3acb79fe5ff9d724e83,[SS] Update unsaferow format for saved state in flatMapGroupsWithState to allow timeouts with deleted state
+SPARK-19606,https://github.com/apache/spark/commit/b3f9dbf48ec0938ff5c98833bb6b6855c620ef57,[MESOS] Support constraints in spark-dispatcher
+SPARK-16630,https://github.com/apache/spark/commit/b56e9c613fb345472da3db1a567ee129621f6bf3,[YARN] Blacklist a node if executors won't launch on it
+SPARK-24396,https://github.com/apache/spark/commit/b5ccf0d3957a444db93893c0ce4417bfbbb11822,[SS][PYSPARK] Add Structured Streaming ForeachWriter for python
+SPARK-24898,https://github.com/apache/spark/commit/b7b445255370e29d6b420b02389b022a1c65942e,Adding spark.checkpoint.compress to the docs
+SPARK-21506,https://github.com/apache/spark/commit/b8a08f25cc64ed3034f3c90790931c30e5b0f236,"[DOC] The description of ""spark.executor.cores"" may be not correct"
+SPARK-23312,https://github.com/apache/spark/commit/b9503fcbb3f4a3ce263164d1f11a8e99b9ca5710,[SQL] add a config to turn off vectorized cache reader
+SPARK-24805,https://github.com/apache/spark/commit/ba437fc5c73b95ee4c59327abf3161c58f64cb12,[SQL] Do not ignore avro files without extensions by default
+SPARK-24433,https://github.com/apache/spark/commit/ba84bcb2c4f73baf63782ff6fad5a607008c7cd2,Initial R Bindings for SparkR on K8s
+SPARK-22790,https://github.com/apache/spark/commit/ba891ec993c616dc4249fc786c56ea82ed04a827,[SQL] add a configurable factor to describe HadoopFsRelation's size
+SPARK-22219,https://github.com/apache/spark/commit/bbdcc3bf61da39704650d4570c6307b5a46f7100,"Refactor code to get a value for ""spark.sql.codegen.comments"""
+SPARK-27693,https://github.com/apache/spark/commit/bc46feaced9f6694d4829af3cf5637bb1272ef77,Add default catalog property
+SPARK-3685,https://github.com/apache/spark/commit/bc8933faf238bcf14e7976bd1ac1465dc32b8e2b,[CORE] Prints explicit warnings when configured local directories are set to URIs
+SPARK-25394,https://github.com/apache/spark/commit/bd2c4471311cd7e948c80b4927a903636ce0ce7e,Expose App status metrics as Source
+SPARK-19558,https://github.com/apache/spark/commit/bd4eb9ce57da7bacff69d9ed958c94f349b7e6fb,[SQL] Add config key to register QueryExecutionListeners automatically
+SPARK-24110,https://github.com/apache/spark/commit/bf4352ca6c96dfab16b286c54720685e32b216f1,[THRIFT-SERVER] Avoid UGI.loginUserFromKeytab in STS
+SPARK-24819,https://github.com/apache/spark/commit/bfb74394a5513134ea1da9fcf4a1783b77dd64e4,Fail fast when no enough slots to launch the barrier stage on job submitted
+SPARK-20396,https://github.com/apache/spark/commit/bfc7e1fe1ad5f9777126f2941e29bbe51ea5da7c,[SQL][PYSPARK] groupby().apply() with pandas udf
+SPARK-23182,https://github.com/apache/spark/commit/c01152dd22093e9f5d2aa533598e4d4209d30922,Allow enabling TCP keep alive on the RPC connections
+SPARK-23817,https://github.com/apache/spark/commit/c0632cec04e5b0f3fb3c3f27c21a2d3f3fbb4f7e,Create file source V2 framework and migrate ORC re……ad path
+SPARK-26082,https://github.com/apache/spark/commit/c0811e8b4d11892f60b7032ba4c8e3adc40fe82f,Fix mesos fetch cache config name
+SPARK-22533,https://github.com/apache/spark/commit/c13b60e0194c90156e74d10b19f94c70675d21ae,[CORE] Handle deprecated names in ConfigEntry.
+SPARK-22860,https://github.com/apache/spark/commit/c17150a5f5a6c4f4a83ce8c055eab9fea78df08e,Redact command line arguments for running Driver and Executor before logging
+SPARK-25073,https://github.com/apache/spark/commit/c20916a5dc4a7e771463838e797cb944569f6259,AM and Executor Memory validation message is not proper while submitting spark yarn application
+Pull-Request #23185,https://github.com/apache/spark/commit/c3f27b2437497396913fdec96f085c3626ef4e59,[DOCS] Fix typos
+SPARK-21456,https://github.com/apache/spark/commit/c42ef953343073a50ef04c5ce848b574ff7f2238,Make the driver failover_timeout configurable
+SPARK-24063,https://github.com/apache/spark/commit/c4bbfd177b4e7cb46f47b39df9fd71d2d9a12c6d,Add maximum epoch queue threshold for ContinuousExecution
+SPARK-25887,https://github.com/apache/spark/commit/c542c247bbfe1214c0bf81076451718a9e8931dc,Allow specifying Kubernetes context to use
+SPARK-23476,https://github.com/apache/spark/commit/c5abb3c2d16f601d507bee3c53663d4e117eb8b5,[CORE] Generate secret in local mode when authentication on
+SPARK-18188,https://github.com/apache/spark/commit/c5fe412928b76b468713742497d3ccc010596516,[DOC][FOLLOW-UP] Add `spark.broadcast.checksum` to configuration
+SPARK-27555,https://github.com/apache/spark/commit/c66ec439456c5a160e3849e23c2ce3970d4c6ec7,HiveSerDe should fall back to hadoopconf if hive.default.fileformat is not found in SQLConf
+SPARK-22463,https://github.com/apache/spark/commit/c755b0d910d68e7921807f2f2ac1e3fac7a8f357,[YARN][SQL][HIVE] add hadoop/hive/hbase/etc configuration files in SPARK_CONF_DIR to distribute archive
+SPARK-23128,https://github.com/apache/spark/commit/c79f471d0475fd98ddeb1e6281551e42684837d2,A new approach to do adaptive execution in Spark SQL
+SPARK-20644,https://github.com/apache/spark/commit/c7f38e5adb88d43ef60662c5d6ff4e7a95bff580,[core] Initial ground work for kvstore UI backend.
+SPARK-22203,https://github.com/apache/spark/commit/c8affec21c91d638009524955515fc143ad86f20,[SQL] Add job description for file listing Spark jobs
+SPARK-21418,https://github.com/apache/spark/commit/ca59445adb30ed796189532df2a2898ecd33db68,SQL] NoSuchElementException: None.get in DataSourceScanExec with sun.io.serialization.extendedDebugInfo=true
+SPARK-25300,https://github.com/apache/spark/commit/ca861fea21adc4e6ec95eced7076cb27fc86ea18,Unified the configuration PARAMETER `spark.shuffle.service.enabled`
+SPARK-26688,https://github.com/apache/spark/commit/caceaec93203edaea1d521b88e82ef67094cdea9,Provide configuration of initially blacklisted YARN nodes
+SPARK-26941,https://github.com/apache/spark/commit/cad475dcc9376557f882859856286e858002389a,Fix incorrect computation of maxNumExecutorFailur……es in ApplicationMaster for streaming
+SPARK-23966,https://github.com/apache/spark/commit/cbb41a0c5b01579c85f06ef42cc0585fbef216c5,SS] Refactoring all checkpoint file writing logic in a common CheckpointFileManager interface
+SPARK-23188,https://github.com/apache/spark/commit/cc41245fa3f954f961541bf4b4275c28473042b8,[SQL] Make vectorized columar reader batch size configurable
+SPARK-23668,https://github.com/apache/spark/commit/cccaaa14ad775fb981e501452ba2cc06ff5c0f0a,[K8S] Add config option for passing through k8s Pod.specimagePullSecrets
+SPARK-24128,https://github.com/apache/spark/commit/cd12c5c3ecf28f7b04f566c2057f9b65eb456b7d,SQL] Mention configuration option in implicit CROSS JOIN error
+SPARK-21694,https://github.com/apache/spark/commit/ce0d3bb377766bdf4df7852272557ae846408877,Support Mesos CNI network labels
+SPARK-21530,https://github.com/apache/spark/commit/cfb25b27c0b32a8a70a518955fb269314b1fd716,Update description of spark.shuffle.maxChunksBeingTrans……ferred.
+SPARK-11035,https://github.com/apache/spark/commit/cfcd746689c2b84824745fa6d327ffb584c7a17d,[CORE] Add in-process Spark app launcher.
+SPARK-13534,https://github.com/apache/spark/commit/d03aebbe6508ba441dc87f9546f27aeb27553d77,Using Apache Arrow to increase performance of ……DataFrame.toPandas
+SPARK-26766,https://github.com/apache/spark/commit/d0443a74d185ec72b747fa39994fa9a40ce974cf,Remove the list of filesystems from HadoopDelegationTokenProvider.obtainDelegationTokens
+SPARK-24605,https://github.com/apache/spark/commit/d08f53dc61f662f5291f71bcbe1a7b9f531a34d2,[SQL] size(null) returns null instead of -1
+SPARK-25454,https://github.com/apache/spark/commit/d0990e3dfee752a6460a6360e1a773138364d774,add a new config for picking minimum precision for…… integral literals
+SPARK-20640,https://github.com/apache/spark/commit/d107b3b910d8f434fb15b663a9db4c2dfe0a9f43,Make rpc timeout and retry for shuffle registrati……on configurable.
+SPARK-21717,https://github.com/apache/spark/commit/d20bbc2d87ae6bd56d236a7c3d036b52c5f20ff5,[SQL] Decouple consume functions of physical operators in whole-stage codegen
+SPARK-24594,https://github.com/apache/spark/commit/d2436a85294a178398525c37833dae79d45c1452,[YARN] Introducing metrics for YARN
+SPARK-22159,https://github.com/apache/spark/commit/d29d1e87995e02cb57ba3026c945c3cd66bb06e2,"[SQL] Make config names consistently end with ""enabled""."
+SPARK-27760,https://github.com/apache/spark/commit/d30284b5a51dd784f663eb4eea37087b35a54d00,Spark resources - change user resource config from .count to .amount
+SPARK-24626,https://github.com/apache/spark/commit/d36539741ff6a12a6acde9274e9992a66cdd36e7,Improve location size calculation in Analyze Table command
+SPARK-24324,https://github.com/apache/spark/commit/d48803bf64dc0fccd6f560738b4682f0c05e767a,PYTHON][FOLLOWUP] Grouped Map positional conf should have deprecation note
+SPARK-21127,https://github.com/apache/spark/commit/d5202259d9aa9ad95d572af253bf4a722b7b437a,[SQL][FOLLOWUP] fix a config name typo
+SPARK-25415,https://github.com/apache/spark/commit/d522a563ad5ab157993a19f406a3cc6f443ccb9e,[SQL][FOLLOW-UP] Add Locale.ROOT when toUpperCase
+SPARK-26792,https://github.com/apache/spark/commit/d5bda2c9e8dde6afc075cc7f65b15fa9aa82231c,Apply custom log URL to Spark UI
+SPARK-23380,https://github.com/apache/spark/commit/d6632d185e147fcbe6724545488ad80dce20277e,[PYTHON] Adds a conf for Arrow fallback in toPandas/createDataFrame with Pandas DataFrame
+SPARK-20331,https://github.com/apache/spark/commit/d8cada8d1d3fce979a4bc1f9879593206722a3b9,[SQL][FOLLOW-UP] Add a SQLConf for enhanced Hive partition pruning predicate pushdown
+SPARK-21839,https://github.com/apache/spark/commit/d8f45408635d4fccac557cb1e877dfe9267fb326,Support SQL config for ORC compression
+SPARK-25262,https://github.com/apache/spark/commit/da6fa3828bb824b65f50122a8a0a0d4741551257,Allow SPARK_LOCAL_DIRS to be tmpfs backed on K8S
+SPARK-23207,https://github.com/apache/spark/commit/dad2d826ae9138f06751e5d092531a9e06028c21,Use `SQLConf.get.enableRadixSort` instead of `SparkEnv.get.conf.get(SQLConf.RADIX_SORT_ENABLED)`
+SPARK-27024,https://github.com/apache/spark/commit/db2e3c43412e4a7fb4a46c58d73d9ab304a1e949,Executor interface for cluster managers to support GPU and other resources
+SPARK-27834,https://github.com/apache/spark/commit/db48da87f02e2e89710ba65fab8b07e9c85b9e74,[SQL][R][PYTHON] Make separate PySpark/SparkR vectorization configurations
+SPARK-24215,https://github.com/apache/spark/commit/dbb4d83829ec4b51d6e6d3a96f7a4e611d8827bc,[PYSPARK] Implement _repr_html_ for dataframes in PySpark
+SPARK-27161,https://github.com/apache/spark/commit/dbcb4792f2396a31ab620210c6a8177c3b5db10a,improve the document of SQL keywords
+SPARK-27161,https://github.com/apache/spark/commit/dbcb4792f2396a31ab620210c6a8177c3b5db10a,improve the document of SQL keywords
+SPARK-22290,https://github.com/apache/spark/commit/dc2714da50ecba1bf1fdf555a82a4314f763a76e,[CORE] Avoid creating Hive delegation tokens when not necessary.
+SPARK-19753,https://github.com/apache/spark/commit/dccc0aa3cf957c8eceac598ac81ac82f03b52105,Un-register all shuffle output on a host in case of slave lost or fetch failure
+SPARK-24250,https://github.com/apache/spark/commit/dd37529a8dada6ed8a49b8ce50875268f6a20cba,[SQL] support accessing SQLConf inside tasks
+SPARK-23836,https://github.com/apache/spark/commit/ddc2052ebd247aa2a8dad34fd5c1cd345fa45118,"Support returning StructType to the level support in GroupedMap Arrow's ""scalar"" UDFS (or similar)"
+SPARK-24572,https://github.com/apache/spark/commit/ddd1b1e8aec023e61b186c494ccbc182db2eb3ca,"""eager execution"" for R shell, IDE"
+SPARK-23997,https://github.com/apache/spark/commit/de46df549acee7fda56bb0871f444d2f3b49e582,Configurable maximum number of buckets
+SPARK-23514,https://github.com/apache/spark/commit/dea381dfaa73e0cfb9a833b79c741b15ae274f64,[FOLLOW-UP] Remove more places using sparkContext.hadoopConfiguration directly
+SPARK-22648,https://github.com/apache/spark/commit/ded6d27e4eb02e4530015a95794e6ed0586faaa7,[K8S] Add documentation covering init containers and secrets
+SPARK-26673,https://github.com/apache/spark/commit/df4c53e44bc9837a470ec66486237403868cb04f,File source V2 writes: create framework and migrate ORC
+SPARK-24782,https://github.com/apache/spark/commit/e008ad175256a3192fdcbd2c4793044d52f46d57,[SQL] Simplify conf retrieval in SQL expressions
+SPARK-13656,https://github.com/apache/spark/commit/e00f1a1da12be4a1fdb7b89eb5e098aa16c5c2c3,[SQL] Delete spark.sql.parquet.cacheMetadata from SQLConf and docs
+SPARK-25850,https://github.com/apache/spark/commit/e017cb39642a5039abd8ce8127ad41712901bdbc,Make the split threshold for the code generated method configurable
+SPARK-17920,https://github.com/apache/spark/commit/e0d7665cec1e6954d640f422c79ebba4c273be7d,[CORE] Handle deprecated names in ConfigEntry.
+SPARK-24920,https://github.com/apache/spark/commit/e103c4a5e72bab8862ff49d6d4c1e62e642fc412,Allow sharing Netty's memory pool allocators
+SPARK-22062,https://github.com/apache/spark/commit/e1960c3d6f380b0dfbba6ee5d8ac6da4bc29a698,[CORE] Spill large block to disk in BlockManager's remote fetch to avoid OOM
+SPARK-22372,https://github.com/apache/spark/commit/e1dd03e42c2131b167b1e80c761291e88bfdf03f,"[CORE, YARN] Make cluster submission use SparkApplication."
+SPARK-17091,https://github.com/apache/spark/commit/e1de34113e057707dfc5ff54a8109b3ec7c16dfb,[SQL] Add rule to convert IN predicate to equivalent Parquet filter
+SPARK-22036,https://github.com/apache/spark/commit/e28eb431146bcdcaf02a6f6c406ca30920592a6a,[SQL] Decimal multiplication with high precision/scale often returns NULL
+SPARK-24646,https://github.com/apache/spark/commit/e2c7e09f742a7e522efd74fe8e14c2620afdb522,[CORE] Minor change to spark.yarn.dist.forceDownloadSchemes to support wildcard '*'
+Pull-Request #19242,https://github.com/apache/spark/commit/e2fea8cd6058a807ff4841b496ea345ff0553044,[CORE][DOC]Add event log conf.
+SPARK-22916,https://github.com/apache/spark/commit/e30b34f7bd9a687eb43d636fffeb98fe235fcbf4,[SQL][FOLLOW-UP] Update the Description of Join Selection
+SPARK-27256,https://github.com/apache/spark/commit/e4b36df2c0ae3bdba4484f9f92461dbb528d8fb9,"If the configuration is used to set the number of bytes, we'd better use `bytesConf`'."
+SPARK-23549,https://github.com/apache/spark/commit/e4bec7cb88b9ee63f8497e3f9e0ab0bfa5d5a77c,[SQL] Cast to timestamp when comparing timestamp with date
+SPARK-23032,https://github.com/apache/spark/commit/e57f394818b0a62f99609e1032fede7e981f306f,Add a per-query codegenStageId to WholeStageCodegenExec
+SPARK-25865,https://github.com/apache/spark/commit/e5c502c596563dce8eb58f86e42c1aea2c51ed17,Add GC information to ExecutorMetrics
+SPARK-27045,https://github.com/apache/spark/commit/e60d8fce0b0cf2a6d766ea2fc5f994546550570a,SQL tab in UI shows actual SQL instead of callsite in case of SparkSQLDriver
+SPARK-26443,https://github.com/apache/spark/commit/e6d3e7d0d8c80adaa51b43d76f1cc83bb9a010b9,Use ConfigEntry for hardcoded configs for history category.
+SPARK-22238,https://github.com/apache/spark/commit/e8547ffb49071525c06876c856cecc0d4731b918,Fix plan resolution bug caused by EnsureStatefulOpPartitioning
+SPARK-22937,https://github.com/apache/spark/commit/e8af7e8aeca15a6107248f358d9514521ffdc6d3,[SQL] SQL elt output binary for binary inputs
+SPARK-18278,https://github.com/apache/spark/commit/e9b2070ab2d04993b1c0c1d6c6aba249e6664c8d,[SCHEDULER] Spark on Kubernetes - Basic Scheduler Backend
+SPARK-27023,https://github.com/apache/spark/commit/e9e8bb33ef9ad785473ded168bc85867dad4ee70,Make k8s client timeouts configurable
+SPARK-27677,https://github.com/apache/spark/commit/e9f3f62b2c0f521f3cc23fef381fc6754853ad4f,Serve local disk persisted blocks by the external service after releasing executor by dynamic allocation
+SPARK-16060,https://github.com/apache/spark/commit/eaac60a1e20e29084b7151ffca964cfaa5ba99d1,[SQL][FOLLOW-UP] add a wrapper solution for vectorized orc reader
+SPARK-17147,https://github.com/apache/spark/commit/eac0b067222a3dfa52be20360a453cb7bd420bf2,[STREAMING][KAFKA] Allow non-consecutive offsets
+SPARK-26529,https://github.com/apache/spark/commit/eb42bb493b1d7c79e9516660b71aec66bdde5d51,Add debug logs for confArchive when preparing local resource
+SPARK-19112,https://github.com/apache/spark/commit/ed1a65448f228776afe2e5c6b1ac4228d2ed2854,Add missing shortCompressionCodecNames to configuration.
+SPARK-22676,https://github.com/apache/spark/commit/ed4101d29f50d54fd7846421e4c00e9ecd3599d0,Avoid iterating all partition paths when spark.sql.hive.verifyPartitionPath=true
+SPARK-26700,https://github.com/apache/spark/commit/ed71a825c56920327533ebb741707871848ccd6d,enable fetch-big-block-to-disk by default
+SPARK-23850,https://github.com/apache/spark/commit/ed7ba7db8fa344ff182b72d23ae458e711f63432,Add separate config for SQL options redaction
+SPARK-27938,https://github.com/apache/spark/commit/eee3467b1ea674a64a3c70775cfbf2710318993e,Remove feature flag LEGACY_PASS_PARTITION_BY_AS_OPTIONS
+SPARK-21243,https://github.com/apache/spark/commit/ef617755868077dbc57de4e7edea8f01335f5556,Limit no. of map outputs in a shuffle fetch
+SPARK-27687,https://github.com/apache/spark/commit/efa303581ac61d6f517aacd08883da2d01530bd2,Rename Kafka consumer cache capacity conf and document caching
+SPARK-22537,https://github.com/apache/spark/commit/efd0036ec88bdc385f5a9ea568d2e2bbfcda2912,[CORE] Aggregation of map output statistics on driver faces single point bottleneck
+SPARK-22404,https://github.com/apache/spark/commit/f06bc0cd1dee2a58e04ebf24bf719a2f7ef2dc4e,Provide an option to use unmanaged AM in yarn-client mode
+SPARK-22839,https://github.com/apache/spark/commit/f15906da153f139b698e192ec6f82f078f896f1e,[K8S] Remove the use of init-container for downloading remote dependencies
+SPARK-22771,https://github.com/apache/spark/commit/f2b3525c17d660cf6f082bbafea8632615b4f58e,SQL] Concatenate binary inputs into a binary output
+SPARK-04502,https://github.com/apache/spark/commit/f2d35427eedeacceb6edb8a51974a7e8bbb94bc2,Parquet nested column pruning - foundation
+SPARK-21568,https://github.com/apache/spark/commit/f31e11404d6d5ee28b574c242ecbee94f35e9370,[CORE] ConsoleProgressBar should only be enabled in shells
+SPARK-16060,https://github.com/apache/spark/commit/f44ba910f58083458e1133502e193a9d6f2bf766,[SQL] Support Vectorized ORC Reader
+SPARK-24960,https://github.com/apache/spark/commit/f5113ea8d79de724ec1579bc81a7abb61e44eeef,[K8S] explicitly expose ports on driver container
+SPARK-26709,https://github.com/apache/spark/commit/f5b9370da2745a744f8b2f077f1690e0e7035140,[SQL] OptimizeMetadataOnlyQuery does not handle empty records correctly
+SPARK-24434,https://github.com/apache/spark/commit/f6cc354d83c2c9a757f9b507aadd4dbdc5825cca,Support user-specified driver and executor pod templates
+SPARK-24566,https://github.com/apache/spark/commit/f71e8da5efde96aacc89e59c6e27b71fffcbc25f,[CORE] Fix spark.storage.blockManagerSlaveTimeoutMs default config
+SPARK-22487,https://github.com/apache/spark/commit/f7534b37ee91be14e511ab29259c3f83c7ad50af,[SQL][FOLLOWUP] still keep spark.sql.hive.version
+SPARK-25174,https://github.com/apache/spark/commit/f8346d2fc01f1e881e4e3f9c4499bf5f9e3ceb3f,Limit the size of diagnostic message for am to unregister itself from rm
+SPARK-20220,https://github.com/apache/spark/commit/f876d3fa800ae04ec33f27295354669bb1db911e,[DOCS] Documentation Add thrift scheduling pool config to scheduling docs
+SPARK-25811,https://github.com/apache/spark/commit/f92d2766535d882b17f6d3b061d1df57bc84a90e,Raise a proper error when unsafe cast is detected by PyArrow
+SPARK-26178,https://github.com/apache/spark/commit/f982ca07e80074bdc1e3b742c5e21cf368e4ede2,Use java.time API for parsing timestamps and dates from CSV
+SPARK-26632,https://github.com/apache/spark/commit/fa5dc0a45a414c34b31c5d7efe396aa04f1e66e3,Separate Thread Configurations of Driver and Executor
+SPARK-27083,https://github.com/apache/spark/commit/fac31104f69daa6cf72eae1a0de995ef0777d75c,Add a new conf to control subqueryReuse
+SPARK-25384,https://github.com/apache/spark/commit/fb3276a54a2b7339e5e0fb62fb01cbefcc330c8b,Clarify fromJsonForceNullableSchema will be removed in Spark 3.0
+SPARK-22807,https://github.com/apache/spark/commit/fb3636b482be3d0940345b1528c1d5090bbc25e6,[SCHEDULER] Remove config that says docker and replace with container
+SPARK-20812,https://github.com/apache/spark/commit/fc45c2c88a838b8f46659ebad2a8f3a9923bc95f,Add secrets support to the dispatcher
+SPARK-27253,https://github.com/apache/spark/commit/fc9aad0957fa98ce7a1af2ba529a476b33eebd0e,Prioritizes parent session's SQLConf over SparkCon……f when cloning a session
+SPARK-22148,https://github.com/apache/spark/commit/fdd3bace1da01e5958fe0345c38e889e740ce25e,TaskSetManager.abortIfCompletelyBlacklisted should not abort when all current executors are blacklisted but dynamic allocation is enabled
+SPARK-23285,https://github.com/apache/spark/commit/fe2b7a4568d65a62da6e6eb00fff05f248b4332c,[K8S] Add a config property for specifying physical executor cores
+SPARK-28205,https://github.com/apache/spark/commit/3ae531ebb92a1feb1500c12ae97b8d24493354c,[SQL] useV1SourceList CONFIGURATION should be for all data sources
+SPARK-28177,https://github.com/apache/spark/commit/cec6a329044fa7d8a4f3da3871dbacac95cc38e,[SQL] Adjust post shuffle partition number in adaptive execution
+SPARK-28294,https://github.com/apache/spark/commit/bbc2be4f425c4c26450e1bf21db407e81046ce2,[CORE] Support `spark.history.fs.cleaner.maxNum` CONFIGURATION
+SPARK-27919,https://github.com/apache/spark/commit/ec821b4411bf64ab587548853ade08c053c64d6,[SQL] Add v2 session catalog
+SPARK-23472,https://github.com/apache/spark/commit/f83000597f250868de9722d8285fed013abc5ec,[CORE] Add defaultJavaOptions for driver and executor.
+SPARK-27707,https://github.com/apache/spark/commit/127bc899ae78d73332a87f0972b5db3c9936c1f,[SQL] Prune unnecessary nested fields from Generate
+SPARK-26218,https://github.com/apache/spark/commit/ee41001949af43d25dc6962ab6ca277e53c6429,[SQL] Overflow on arithmetic operations returns incorrect result
+SPARK-28651,https://github.com/apache/spark/commit/5bb69945e4aaf519cd10a5c5083332f618039af,[SS] Force the schema of Streaming file source to be nullable
+SPARK-28487,https://github.com/apache/spark/commit/0343854f54b48b206ca434accec99355011560c,[K8S] More responsive dynamic allocation with K8SThis change implements a few changes to the k8s pod allocator sothat it behaves a little better when dynamic allocation is on.
+SPARK-28573,https://github.com/apache/spark/commit/d5688dc732890923c326f272b0c18c329a69459,[SQL] Convert InsertIntoTable(HiveTableRelation) to DataSource inserting for partitioned table
+SPARK-25341,https://github.com/apache/spark/commit/f725d472f51fb80c6ce1882ec283ff69bafb0de,"[CORE] Support rolling back a shuffle map stage and re-generate the shuffle filesAfter the newly added shuffle block fetching protocol in #24565, we can keep this work by extending the FetchShuffleBlocks message."
+SPARK-26848,https://github.com/apache/spark/commit/4513f1c0dc450e9249d43fdad618fdcaf8d399b,[SQL][SS] Introduce new OPTION to Kafka source: offset by timestamp (starting/ending)
+SPARK-28228,https://github.com/apache/spark/commit/1a26126d8c5e9bb647f858db236c370685f2f2d,[SQL] Fix substitution order of nested WITH clauses
+SPARK-28209,https://github.com/apache/spark/commit/abef84a868e9e15f346eea315bbab0ec8ac8e38,[CORE][SHUFFLE] Proposed new shuffle writer API
+SPARK-26329,https://github.com/apache/spark/commit/80ab19b9fd268adfc419457f12b99a5da7b6d1c,[CORE] Faster polling of executor memory metrics.
+SPARK-28344,https://github.com/apache/spark/commit/6fb79af48c1bb93e7baf5a3d5646d86a95acc93,[SQL] detect ambiguous self-join and fail the query
+SPARK-27371,https://github.com/apache/spark/commit/cbad616d4cb0c58993a88df14b5e30778c7f7e8,[CORE] Support GPU-aware resources scheduling in Standalone
+SPARK-25151,https://github.com/apache/spark/commit/594c9c5a3ece0e913949c7160bb4925e5d289e4,[SS] Apply Apache Commons Pool to KafkaDataConsumer
+SPARK-11150,https://github.com/apache/spark/commit/a7a3935c97d1fe6060cae42bbc9229c087b648a,[SQL] Dynamic Partition Pruning
+SPARK-21870,https://github.com/apache/spark/commit/cb0cddffe9452937033e0e6b1fc0e600d2c787a,[SQL] Split aggregation code into small functions
+SPARK-29064,https://github.com/apache/spark/commit/bbfaadb280a80b511a98d18881641c6d9851dd5,[CORE] Add PrometheusResource to export Executor metrics
+SPARK-28997,https://github.com/apache/spark/commit/a1213d5f963f6e8815bbfaff308b0a24112fff5,[SQL] Add `spark.sql.dialect`
+SPARK-29783,https://github.com/apache/spark/commit/5cebe587c7132fa6ea502084d45e0d8b203481b,[SQL] Support SQL Standard/ISO_8601 output style for interval type
+SPARK-29182,https://github.com/apache/spark/commit/4ecbdbb6a7bd3908da32c82832e886b4f9f9e59,[CORE] Cache preferred locations of checkpointed RDD
+SPARK-26154,https://github.com/apache/spark/commit/c941362cb94b24bdf48d4928a1a4dff1b13a148,[SS] Streaming left/right outer join should not return outer nulls for already matched rows
+SPARK-29568,https://github.com/apache/spark/commit/363af16c72abe19fc5cc5b5bdf9d8dc34975f2b,[SS] Stop existing running streams when a new stream is launched
+SPARK-29956,https://github.com/apache/spark/commit/87ebfaf003fcd05a7f6d23b3ecd4661409ce5f2,[SQL] A literal number with an exponent should be parsed to Double
+SPARK-29976,https://github.com/apache/spark/commit/ad238a2238a9d0da89be4424574436cbfaee579,[CORE] Trigger speculation for stages with too few tasks
+SPARK-30143,https://github.com/apache/spark/commit/4c37a8a3f4a489b52f1919d2db84f6e32c6a05c,[SS] Add a timeout on stopping a streaming query
+SPARK-28560,https://github.com/apache/spark/commit/9ac4b2dbc55a1114fea313483e5543d83c35221,[SQL] Optimize shuffle reader to local shuffle reader when smj converted to bhj in adaptive execution
+SPARK-28869,https://github.com/apache/spark/commit/100fc58da54e026cda87832a10e2d06eaeccdf8,[CORE] Roll over event log files
+SPARK-29397,https://github.com/apache/spark/commit/d51d228048d519a9a666f48dc532625de13e758,[CORE] Extend plugin interface to include the driverSpark 2.4 added the ability for executor plugins to be loaded intoSpark (see SPARK-24918).
+SPARK-20568,https://github.com/apache/spark/commit/ba2bc4b0e0eea0c1b6732a18cb20e61e4f69315,[SS] Provide OPTION to clean up completed files in streaming query
+SPARK-27990,https://github.com/apache/spark/commit/3dd3a623f293bc7fd4937c95f06b967fa187b0f,[SPARK-29903][PYTHON] Add recursiveFileLookup OPTION to Python DataFrameReader
+SPARK-27189,https://github.com/apache/spark/commit/729f43f499f3dd2718c0b28d73f2ca29cc811ea,[CORE] Add Executor metrics and memory usage instrumentation to the metrics system
+SPARK-29864,https://github.com/apache/spark/commit/e933539cdd557297daf97ff5e532a3f09889697,[SPARK-29920][SQL] Strict parsing of day-time strings to intervals
+SPARK-30240,https://github.com/apache/spark/commit/a9fbd310300e57ed58818d7347f3c3172701c49,[CORE] Support HTTP redirects directly to a proxy server
+SPARK-29938,https://github.com/apache/spark/commit/07b04c4c72ef0a1c6631afc2dc6d9be9817e319,[SQL] Add batching support in Alter table add partition flow
+SPARK-21869,https://github.com/apache/spark/commit/7bff2db9ed803e05a43c2d875c1dea819d81248,[SS] Revise Kafka producer pool to implement 'expire' correctly
+SPARK-29001,https://github.com/apache/spark/commit/0346afa8fc348aa1b3f5110df747a64e3b2da38,[CORE] Print events that take too long time to process
+SPARK-29189,https://github.com/apache/spark/commit/64fe82b519bdc854fcbef40e906ac1fb181534c,[SQL] Add an OPTION to ignore block locations when listing file
+SPARK-29436,https://github.com/apache/spark/commit/f800fa383131559c4e841bf062c9775d0919093,[K8S] Support executor for selecting scheduler through scheduler name in the case of k8s multi-scheduler scenario
+SPARK-29444,https://github.com/apache/spark/commit/78b0cbe265c4e8cc3d4d8bf5d734f2998c04d37,Add CONFIGURATION to support JacksonGenrator to keep fields with null values
+SPARK-29603,https://github.com/apache/spark/commit/4615769736f4c052ae1a2de26e715e229154cd2,[YARN] Support application priority for YARN priority scheduling
+SPARK-29654,https://github.com/apache/spark/commit/2888009d6660183674de7da456b54247c1b8ca2,[CORE] Add CONFIGURATION to allow disabling registration of static sources to the metrics system
+SPARK-24203,https://github.com/apache/spark/commit/833a9f12e2d46b5741e0522d5c86c9f6d88bb9d,[CORE] Make executor's bindAddress CONFIGURABLE
+SPARK-25694,https://github.com/apache/spark/commit/ee3bd6d76887ccc4961fd520c5d03f7edd3742a,[SQL] Add a CONFIG for `URL.setURLStreamHandlerFactory
+SPARK-29975,https://github.com/apache/spark/commit/e2f056f4a89b1bd9864be8c111d39af6558c839,[SQL] introduce --CONFIG_DIM directive
+SPARK-24690,https://github.com/apache/spark/commit/3f3a18fff116a02ff7996d45a1061f48a2de310,[SQL] Add a CONFIG to control plan stats computation in LogicalRelation
+SPARK-29939,https://github.com/apache/spark/commit/456cfe6e4693efd26d64f089d53c4e01bf8150a,[CORE] Add spark.shuffle.mapStatus.compression.codec conf
+SPARK-30113,https://github.com/apache/spark/commit/c8922d9145a9bc60c0f423a6c1b7d4f0bfa2e58,[SQL][PYTHON] Expose mergeSchema OPTION in PySpark's ORC APIs
+SPARK-30098,https://github.com/apache/spark/commit/58be82ad4b98fc17e821e916e69e77a6aa36209,[SQL] Use default datasource as provider for CREATE TABLE syntax
+SPARK-29444,https://github.com/apache/spark/commit/dcf5eaf1a6c0330a9460e168c1c3fee21998ba6,[FOLLOWUP] add doc and python PARAMETER for ignoreNullFields in json generating
+SPARK-28634,https://github.com/apache/spark/commit/5f6eb5d20dee57ea7ba9d47b21c712dee06fa7e,[YARN] Ignore kerberos login CONFIG in client mode AM
+SPARK-28843,https://github.com/apache/spark/commit/31b59bd80517f17f160eb8d6665b9bf8b3372d3,[PYTHON] Set OMP_NUM_THREADS to executor cores for python if not set
+SPARK-29865,https://github.com/apache/spark/commit/b095232f630221926a9eabb8233c20d03c9a6eb,[K8S] Ensure client-mode executors have same name prefix
+SPARK-30025,https://github.com/apache/spark/commit/169415ffac3050a86934011525ea00eef7fca35,[CORE] Continuous shuffle block fetching should be disabled by default when the old fetch protocol is used
+SPARK-28577,https://github.com/apache/spark/commit/a07f795aead3bd81e7cccad30a7f6148c09ed8a,[YARN] Resource capability requested for each executor add offHeapMemorySize
+SPARK-28989,https://github.com/apache/spark/commit/6edabeb0ee40fd14c1dad4bb5e359623fc68faa,[SQL][FOLLOWUP] Update ANSI mode related CONFIG names in comments
+SPARK-26118,https://github.com/apache/spark/commit/0b6c2c259c1ed109a824b678c9ccbd9fd767d2f,[MINOR] Add requestHeaderSize debug log
+SPARK-30263,https://github.com/apache/spark/commit/46e950bea883b98cd3beb7bd637bffe52265643,[CORE] Don't log potentially sensitive value of non-Spark properties ignored in spark-submit
+SPARK-28778,https://github.com/apache/spark/commit/f17f1d01e2dca76113d1d39ec1d03fcec9d72b6,[MESOS] Fixed executors advertised address when running in virtual network
+SPARK-29675,https://github.com/apache/spark/commit/888cc4601a33f7b2479fa40d05dc23a3d05575e,[SQL] Add exception when isolationLevel is Illegal
+SPARK-28339,https://github.com/apache/spark/commit/3f375c850b5a41ae1ca5deb84fdcea667c32a03,[SQL] Rename Spark SQL adaptive execution CONFIGURATION name
+SPARK-27959,https://github.com/apache/spark/commit/43d68cd4ff84530c3d597f07352984225ab1db7,[YARN] Change YARN resource CONFIGS to use .amount
+SPARK-28741,https://github.com/apache/spark/commit/8258660f673f8b57a3cdd79ecd57c79df5554e3,[SQL] Optional mode: throw exceptions when casting to integers causes overflow
+SPARK-21287,https://github.com/apache/spark/commit/92b25295ca0dc5b80aaddb1c8f8d5ef0a250d11,[SQL] Remove requirement of fetch_size>=0 from JDBCOption
+SPARK-29151,https://github.com/apache/spark/commit/3cb18d90c441bbaa64c693e276793b670213e59,[CORE] Support fractional resources for task resource scheduling
+SPARK-30074,https://github.com/apache/spark/commit/d1465a1b0dea690fcfbf75edb73ff9f8a015c0d,[SQL] The maxNumPostShufflePartitions CONFIG should obey reducePostShufflePartitions enabled
+SPARK-28885,https://github.com/apache/spark/commit/322ec0ba9ba75708cfe679368a43655de7b0e4f,[SQL] Follow ANSI store assignment rules in table insertion by default
+SPARK-29189,https://github.com/apache/spark/commit/b3eba2949366d46a2508f3a97a16bccb8924925,[FOLLOW-UP][SQL] Beautify CONFIG name
+SPARK-09853,https://github.com/apache/spark/commit/8616109061efc5b23b24bb9ec4a3c0f2745903c,[CORE][FOLLOW-UP] Regularize all the shuffle CONFIGURATIONS related to adaptive execution
+SPARK-29807,https://github.com/apache/spark/commit/40ea4a11d7f1534023669f0b81faf5d398174e4,"[SQL] Rename ""spark.sql.ansi.enabled"" to ""spark.sql.dialect.spark.ansi.enabled"""
+SPARK-29893,https://github.com/apache/spark/commit/6e581cf164c3a2930966b270ac1406dc1195c94,[SQL][FOLLOWUP] code cleanup for local shuffle reader
+#26694,https://github.com/apache/spark/commit/e271664a01fd7dee63391890514d76262cad1bc,[MINOR][SQL] Rename CONFIG name to spark.sql.analyzer.failAmbiguousSelfJoin.enabled
+SPARK-30060,https://github.com/apache/spark/commit/60f20e5ea2000ab8f4a593b5e4217fd5637c5e2,[CORE] Rename metrics enable/disable CONFIGS
+SPARK-25855,https://github.com/apache/spark/commit/35506dced739ef16136e9f3d5d48c638899d3ce,[CORE][FOLLOW-UP] Format CONFIG name to follow the other boolean conf naming convention
+SPARK-26389,https://github.com/apache/spark/commit/6d64fc2407e5b21a2db59c5213df438c74a3163,[SS][FOLLOW-UP] Format CONFIG name to follow the other boolean conf naming convention
+SPARK-29753,https://github.com/apache/spark/commit/942753a44beeae5f0142ceefa307e90cbc1234c,[SQL] refine the default catalog CONFIG
+SPARK-28055,https://github.com/apache/spark/commit/d47c219f94f478b4b90bf6f74f78762ea301ebf,[SS][DSTREAMS] Add delegation token custom AdminClient configurations.
+SPARK-28355,https://github.com/apache/spark/commit/79e204770300dab4a669b9f8e2421ef905236e7,[CORE][PYTHON] Use Spark conf for threshold at which command is compressed by broadcast
+SPARK-28395,https://github.com/apache/spark/commit/69268492471137dd7a3da54c218026c3b1fa7db,[SQL] Division operator support integral division
+SPARK-28595,https://github.com/apache/spark/commit/469423f33887a966aaa33eb75f5e7974a0a97be,[SQL] explain should not trigger partition listing
+SPARK-28730,https://github.com/apache/spark/commit/895c90b582cc2b2667241f66d5b733852aeef9e,[SQL] CONFIGURABLE type coercion policy for table insertion
+SPARK-29105,https://github.com/apache/spark/commit/276aaaae8d404975f8701089e9f4dfecd16e0d9,[CORE] Keep driver log file size up to date in HDFS
+SPARK-29175,https://github.com/apache/spark/commit/ada3ad34c6ab7f3d83ee9dd0b5e945e8ae50def,[SQL] Make additional remote maven repository in IsolatedClientLoader CONFIGURABLE
+SPARK-27963,https://github.com/apache/spark/commit/2ddeff97d7329942a98ef363991eeabc3fa71a7,[CORE] Allow dynamic allocation without a shuffle service.
+SPARK-28257,https://github.com/apache/spark/commit/42b80ae128ab1aa8a87c1376fe88e2cde52e6e4,[SQL] Use CONFIGENTRY for hardcoded CONFIGS in SQL
+SPARK-28907,https://github.com/apache/spark/commit/ca711778683a16999560cbdd7c61d98ad6bde6d,[CORE] Review invalid usage of new CONFIGURATION()
+SPARK-26598,https://github.com/apache/spark/commit/962e330955581aea032ff336a12f23374c39e67,[SQL] Fix HiveThriftServer2 cannot be modified hiveconf/hivevar variables
+SPARK-28939,https://github.com/apache/spark/commit/ca6f693ef17ccb27a6ef5bdad9141abb2fe0434,[SQL][FOLLOWUP] Avoid useless Properties
+SPARK-28840,https://github.com/apache/spark/commit/7e6142591f3bc865806b86c7a7b90be008a319d,[SQL] conf.getClassLoader in SparkSQLCLIDriver should be avoided as it returns the UDFClassLoader which is created by Hive
+SPARK-28957,https://github.com/apache/spark/commit/d8b0914c2e0fdee72a3b9abb2d65283e22b6e8e,"[SQL] Copy any ""spark.hive.foo=bar"" spark properties into hadoop conf as ""hive.foo=bar"""
+SPARK-29015,https://github.com/apache/spark/commit/cc852d4eec696731cef9ddd6fb0c0c2184194f6,[SQL][TEST-HADOOP3.2] Reset class loader after initializing SessionState for built-in Hive 2.3
+SPARK-29326,https://github.com/apache/spark/commit/91747bd91b410e2d3b7556d0d595fb8e42e4c6d,[SQL] ANSI store assignment policy: throw exception on casting failure
+SPARK-10614,https://github.com/apache/spark/commit/857f109c47b26a38f5d114a94f94c516177db3f,[CORE] Add monotonic time to Clock interface
+SPARK-29530,https://github.com/apache/spark/commit/484f93e25506f84d1548504783be9ce940149bb,[SQL] Make SQLConf in SQL parse process thread safe
+SPARK-25694,https://github.com/apache/spark/commit/8469614c0513fbed87977d4e741649db3fdd8ad,[SQL][FOLLOW-UP] Move 'spark.sql.defaultUrlStreamHandlerFactory.enabled' into StaticSQLConf.scala
+SPARK-30195,https://github.com/apache/spark/commit/33f53cb2d51b62f4c294c8640dc069e42f36d68,"[SQL][CORE][ML] Change some function, import definitions to work with stricter compiler in Scala 2.13"
+SPARK-29158,https://github.com/apache/spark/commit/bd05339171db00c2f2dd89702f9500ed6e1e321,[SQL] Expose SERIALIZABLECONFIGURATION for DataSource V2 developers
+Pull-Request #25273,https://github.com/apache/spark/commit/fbaa177d2ac19501add708cc7f28e18d30ca15f,[MINOR][PYTHON] Use `_memory_limit` to get worker memory conf in `rdd.py`
+SPARK-28331,https://github.com/apache/spark/commit/c88df2ccf670db62aed6565c9dbdb58d5d5cca3,[SQL] Catalogs.load() should be able to load built-in catalogs
+SPARK-28642,https://github.com/apache/spark/commit/d19a56f9dbef4c995d80d4b46d03bfbfa4843c5,[SQL] Hide credentials in SHOW CREATE TABLE
+SPARK-28675,https://github.com/apache/spark/commit/47af8925b60509d2a2c932e2bcf25394721c6f1,[SQL] Remove maskCredentials and use redactOptions
+SPARK-28922,https://github.com/apache/spark/commit/d502c80404c398d852dfa5f86a0e87c104a6286,[SS] Safe Kafka PARAMETER redaction
+SPARK-28699,https://github.com/apache/spark/commit/2d9cc42aa83beb5952bb44d3cd0327d4432d385,[SQL] Disable using radix sort for ShuffleExchangeExec in repartition case
+SPARK-29399,https://github.com/apache/spark/commit/56a0b5421e41f46a65375c0e5ef9993e9502f93,[CORE] Remove old ExecutorPlugin interface
+SPARK-29930,https://github.com/apache/spark/commit/5eb8973f871fef557fb4ca3f494406ed676a431,[SQL] Remove SQL CONFIGS declared to be removed in Spark 3.0
+SPARK-28366,https://github.com/apache/spark/commit/0f2efe6825a5b50b50bd1aeb8ee970fd190824f,[CORE][FOLLOW-UP] Refine logging in driver when loading single large unsplittable file
+SPARK-23098,https://github.com/apache/spark/commit/0a4f985ca0218ec34a249a7d9d655f060b9debc,[SQL] Migrate Kafka Batch source to v2.
+SPARK-28200,https://github.com/apache/spark/commit/683e270c16258490c7c1deedb05fe44d45c3961,[SQL] Decimal overflow handling in ExpressionEncoder
+SPARK-28224,https://github.com/apache/spark/commit/b79cf0d14351c741efe4f27523919a0e24b8b2e,[SQL] Check overflow in decimal Sum aggregate
+SPARK-29048,https://github.com/apache/spark/commit/5631a96367d2576e1e0f95d7ae529468da8f5fa,Improve performance on Column.isInCollection() with a large size collection
+SPARK-29008,https://github.com/apache/spark/commit/95073fb62b646c3e8394941c5835a396b9d48c0,[SQL] Define an individual method for each common subexpression in HashAggregateExec
+SPARK-28369,https://github.com/apache/spark/commit/a783690d8a50fe42ae2ed66269814b16f0ec8d1,[SQL] Honor spark.sql.decimalOperations.nullOnOverflow in ScalaUDF result
+SPARK-28574,https://github.com/apache/spark/commit/c212c9d9ed7375cd1ea16c118733edd84037ec0,[CORE] Allow to CONFIG different sizes for event queues
+SPARK-28470,https://github.com/apache/spark/commit/8617bf6ff8c1a2021bc0132b5f668aaef8aed89,[SQL] Cast to decimal throws ArithmeticException on overflow
+SPARK-28395,https://github.com/apache/spark/commit/3586cdd24d9f5cb7d3f642a3da6a26ced1f88ce,[FOLLOW-UP][SQL] Make spark.sql.function.preferIntegralDivision internal
+SPARK-28928,https://github.com/apache/spark/commit/e516f7e09e2bfb064376370b00fcf7a0ca91218,[SS] Use Kafka delegation token protocol on sources/sinks
+SPARK-28989,https://github.com/apache/spark/commit/b917a6593dc969b9b766259eb8cbbd6e90e0dc5,[SQL] Add a SQLConf `spark.sql.ansi.enabled`
+SPARK-29247,https://github.com/apache/spark/commit/1d4b2f010b8e1224985f4204c3e1d88c65d71f6,[SQL] Redact sensitive information in when construct HiveClientHive.state
+SPARK-29347,https://github.com/apache/spark/commit/1f1443ebb2a52d311e599880c4065977ec1ee9d,[SQL] Add JSON serialization for external Row
+SPARK-29558,https://github.com/apache/spark/commit/6b4b6a87cde8e29da5cbc2ee00242ec74d5477b,[SQL] ResolveTables and ResolveRelations should be order-insensitive
+SPARK-29415,https://github.com/apache/spark/commit/2d5de25a999e0e5580cf4024937b61e6c926567,[CORE] Stage Level Sched: Add base ResourceProfile and Request classes
+SPARK-30112,https://github.com/apache/spark/commit/c1a5f94973213b1cad15388f3ef8a488424c34a,[SQL] Allow insert overwrite same table if using dynamic partition overwrite
+SPARK-30107,https://github.com/apache/spark/commit/5114389aef2cacaacc82e6025696b33d6d20b2a,[SQL] Expose nested schema pruning to all V2 sources
+SPARK-28211,https://github.com/apache/spark/commit/2e28622d8aeb9ce2460e803bb7d994196bcc025,[CORE][SHUFFLE] Propose Shuffle Driver Components API
+SPARK-28947,https://github.com/apache/spark/commit/02c5b4f76337cc3901b8741887292bb4478931f,[K8S] Status logging not happens at an interval for liveness
+SPARK-29951,https://github.com/apache/spark/commit/23b3c4fafdf37a482b3f823a5701d99d9623651,[SQL] Make the behavior of Postgre dialect independent of ansi mode CONFIG
+SPARK-30138,https://github.com/apache/spark/commit/c2f29d5ea58eb4565cc5602937d6d0bb7555851,[SQL] Separate CONFIGURATION key of max iterations for analyzer and optimizer
+SPARK-30235,https://github.com/apache/spark/commit/cdc8fc6233450ed040f2f0272d06510c1eedbef,[CORE] Switching off host local disk reading of shuffle blocks in case of useOldFetchProtocol
+SPARK-30301,https://github.com/apache/spark/commit/12249fcdc7534c8be67b9331b1a4dfdeb7724d6,[SQL] Fix wrong results when datetimes as fields of complex types
+SPARK-28464,https://github.com/apache/spark/commit/a0a58cf2effc4f4fb17ef3b1ca3def2d4022c97,[DOC][SS] Document Kafka source minPartitions OPTION
+#25297,https://github.com/apache/spark/commit/dba4375359a2dfed1f009edc3b1bcf6b3253fe0,[MINOR][CORE][DOCS] Fix inconsistent description of showConsoleProgress
+SPARK-28609,https://github.com/apache/spark/commit/4856c0e33abd1666f606d57102c198adf5cb5fc,[DOC] Fix broken styles/links and make up-to-date
+SPARK-28639,https://github.com/apache/spark/commit/31ef268baec98e5f9ce7e37ad03dd87a7476938,[CORE][DOC] CONFIGURATION doc for Barrier Execution Mode
+SPARK-25474,https://github.com/apache/spark/commit/e3b32da02786db1b4153535245d732cc70e71ff,[SQL][DOCS] Update the docs for spark.sql.statistics.fallBackToHdfs
+SPARK-28730,https://github.com/apache/spark/commit/9d6bec183c5a5cf72ed95a4cfd6e71416e7098b,[SPARK-28495][SQL][FOLLOW-UP] Revise the doc of OPTION spark.sql.storeAssignmentPolicy
+SPARK-28341,https://github.com/apache/spark/commit/abec6d77635279fd696e887f36bf7e132da4683,[SQL] create a public API for V2SessionCatalog
+SPARK-27492,https://github.com/apache/spark/commit/b425f8ee6599f53f47d7d4a8f0c27f2ba7d2eab,[DOC][YARN][K8S][CORE] Resource scheduling high level user docs
+SPARK-28972,https://github.com/apache/spark/commit/600a2a4ae585a47c822efe42f4fcccb048d3786,"[DOCS] Updating unit description in CONFIGURATIONS, to maintain consistency"
+SPARK-27492,https://github.com/apache/spark/commit/56a3bebb1bc0fe50c5cde9969fef44247d67d85,[DOC][FOLLOWUP] Update resource scheduling user docs
+SPARK-29542,https://github.com/apache/spark/commit/70dd9c0cabb52fac3ab20fbde7eeda41b19bad6,[SQL][DOC] Make the descriptions of spark.sql.files.* be clearly
+SPARK-29182,https://github.com/apache/spark/commit/ae5b60da329ac63935d180d20a62f1bb181f551,[CORE][FOLLOWUP] Cache preferred locations of checkpointed RDD
+SPARK-29902,https://github.com/apache/spark/commit/15218898cdc540420d6a6c957e5040f78e75cc6,[DOC][MINOR] Add listener event queue capacity CONFIGURATION to documentation
+SPARK-30091,https://github.com/apache/spark/commit/e766a323bc3462763b03f9d892a0b3fdf2cb29d,[SQL][PYTHON] Document mergeSchema OPTION directly in the PySpark Parquet APIs
+SPARK-29412,https://github.com/apache/spark/commit/9407fba0375675d6ee6461253f3b8230e8d6750,[SQL] refine the document of v2 session catalog CONFIG
