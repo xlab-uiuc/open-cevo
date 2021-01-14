@@ -126,9 +126,9 @@ ___________________touchedMessage_____________________
 Null
 ~~~
 
-We provide a demo (The above case is in that demo) for all HDFS commit examples in `commit_study.md`, they are HDFS-13607, HDFS-12291, HDFS-12412, HDFS-11998, HDFS-12716, HDFS-11576 and HDFS-12603. Run `commit_selection.py` in `/code/hdfs_demo_examples` to see `commit_selected.txt` and the structured info for each commit.
+We provide a [demo](https://github.com/xlab-uiuc/open-cevo/tree/main/code/hdfs_demo_examples) (The above case is in that demo) for all HDFS commit examples in [commit_study.md](https://github.com/xlab-uiuc/open-cevo/blob/main/commit_study.md), they are HDFS-13607, HDFS-12291, HDFS-12412, HDFS-11998, HDFS-12716, HDFS-11576 and HDFS-12603. Run `commit_selection.py` in `/code/hdfs_demo_examples` to see `commit_selected.txt` and the structured info for each commit.
 ~~~bash
-cd cevo/release/code/hdfs_demo_examples
+cd code/hdfs_demo_examples
 python3 commit_selection.py
 ~~~
 
@@ -157,14 +157,14 @@ One can conduct their own research based on them.
 We provide our script to select commits that touch configuration, which can be used for other time-span.  
 
 Things to modify:  
- - Change the `url` in `cevo/release/code/'software'/commit_url.txt` to the corresponding commit you want to start with. Our script will crawl **oldler** commit based on this. For example, if one want to crawl commit of `HBase` before `Dec.25 2020`, one can do:
+ - Change the `url` in `code/'software'/commit_url.txt` to the corresponding commit you want to start with. Our script will crawl **oldler** commit based on this. For example, if one want to crawl commit of `HBase` before `Dec.25 2020`, one can do:
    ```bash
-   echo "https://github.com/apache/hbase/commits/master?before=0f868da05d7ffabe4512a0cae110ed097b033ebf+35&branch=master" > cevo/release/code/hbase/commit_url.txt
+   echo "https://github.com/apache/hbase/commits/master?before=0f868da05d7ffabe4512a0cae110ed097b033ebf+35&branch=master" > code/hbase/commit_url.txt
    ```
  
 ### How to conduct the extensive study based on commits crawled.
 
-We provide an [tutorial](https://github.com/xlab-uiuc/cevo/blob/master/release/commit_study.md) to show the
+We provide an [tutorial](https://github.com/xlab-uiuc/open-cevo/blob/main/commit_study.md) to show the
 criterion of our study and help others following our texnomy to do their own studies.
 
 ### How to scale the paper to other software.
@@ -180,4 +180,4 @@ Things to modify:
    cp -r hbase/* other_software/
    ```
  - change`cevo/release/code/other_software/commit_url.txt`, using the github commits page url of that software.
- - change the **regular expressions** global varaibles in [diff_file_parser.py](https://github.com/xlab-uiuc/cevo/blob/master/release/code/hbase/diff_file_parser.py) specific to that software. Note that this step need prior understanding of that software. (e.g., which is the configuration file of the software, how do parameters'values loaded from configuration file.)
+ - change the **regular expressions** global varaibles in diff_file_parser.py specific to that software. Note that this step need prior understanding of that software. (e.g., which is the configuration file of the software, how do parameters'values loaded from configuration file.)
