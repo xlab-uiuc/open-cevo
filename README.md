@@ -1,6 +1,8 @@
 # Artifacts for Configuration Evolution of Cloud Systems
 
-This repository includes the artifacts of the evolutionary study of software configuration design and implementation in cloud systems.
+This repository includes the artifacts of the our paper: [An Evolutionary Study of Configuration Design and Implementation in Cloud Systems](https://arxiv.org/pdf/2102.07052.pdf) in 43rd International Conference on Software Engineering (ICSE'21), May. 2021.
+
+Please cite the paper if you use the code or the datasets.
 
 The repository includes the following artifacts:
 
